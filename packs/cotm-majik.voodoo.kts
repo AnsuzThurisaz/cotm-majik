@@ -293,6 +293,7 @@ root(CurseProvider) {
             +(Mod.cleanview)
             +(Mod.craftingTweaks)
             +(Mod.betterAdvancements)
+            +(Mod.betterLoadingScreen)
 
             // OPT-OUT
             group {
