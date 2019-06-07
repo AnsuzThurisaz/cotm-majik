@@ -9,7 +9,7 @@
     forge: 1.12.2-14.23.5.2838,
     packOptions: {
         multimcOptions: {
-            skPackUrl: "https://centerofthemultiverse.net/launcher/cotm.json"
+            skPackUrl: "https://centerofthemultiverse.net/launcher/cotm-majik.json"
         },
         skCraftOptions: {
             userFiles: {

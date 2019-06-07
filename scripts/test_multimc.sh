@@ -6,7 +6,7 @@ cd $DIR
 ./init.sh
 
 echo "testing with mmc instance"
-java -jar "$DIR/bootstrap-voodoo.jar" test mmc "$DIR/cotm.lock.json"
+java -jar "$DIR/bootstrap-voodoo.jar" test mmc "$DIR/cotm-majik.lock.json"
 if [ ! $? -eq 0 ]; then
     echo "Error in step: Test MultiMC"
     exit 1

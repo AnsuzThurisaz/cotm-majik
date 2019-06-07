@@ -4,7 +4,7 @@ pwd
 scripts/init.sh
 
 find . -name \*.entry.hjson -type f -delete
-./gradlew "cotm" --args "build" -Si
+./gradlew "cotm-majik" --args "build" -Si
 if [ ! $? -eq 0 ]; then
     echo "Error building $pack"
     exit 1

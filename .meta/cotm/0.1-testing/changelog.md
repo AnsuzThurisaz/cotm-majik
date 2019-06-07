@@ -16,7 +16,7 @@ added `angry-pixel-the-betweenlands-mod`
 Property | old value | new value
 ---|---|---
 ID |  | `angry-pixel-the-betweenlands-mod`
-Version |  | `TheBetweenlands-3.4.6-universal.jar`
+Version |  | `TheBetweenlands-3.4.7-universal.jar`
 Provider |  | `CURSE`
 Side |  | `BOTH`
 Optional |  | `false`
@@ -351,7 +351,7 @@ Provider |  | `CURSE`
 Side |  | `BOTH`
 Optional |  | `false`
 Release Type |  | `Beta`
-Author |  | `arthurbambous, BaronMartacus, gegy, Lachney, MageSlime, minecraftvinnyq`
+Author |  | `arthurbambous, BaronMartacus, cipher_zero_x, gegy, Lachney, minecraftvinnyq`
 
 
 
@@ -413,6 +413,15 @@ Author | `Vazkii` | `Vazkii_`
 
 
 
+updated `bookshelf`
+
+Property | old value | new value
+---|---|---
+Version | `Bookshelf-1.12.2-2.3.581.jar` | `Bookshelf-1.12.2-2.3.582.jar`
+Release Type | `Release` | `Alpha`
+
+
+
 updated `botania`
 
 Property | old value | new value
@@ -421,11 +430,28 @@ Author | `Vazkii` | `Vazkii_`
 
 
 
+updated `chisels-bits`
+
+Property | old value | new value
+---|---|---
+Version | `chiselsandbits-14.32.jar` | `chiselsandbits-14.33.jar`
+
+
+
 updated `clumps`
 
 Property | old value | new value
 ---|---|---
 Author | `jaredlll08` | `Jaredlll08`
+
+
+
+updated `compactdrawers`
+
+Property | old value | new value
+---|---|---
+Version | `CompactDrawers-1.12.2-1.0.5.121.jar` | `CompactDrawers-1.12.2-1.0.5.123.jar`
+Release Type | `Release` | `Beta`
 
 
 

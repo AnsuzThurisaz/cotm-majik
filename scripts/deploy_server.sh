@@ -16,7 +16,7 @@ rm "$serverConfig/keybindings.txt"
 rm "$serverConfig/servers.dat"
 
 echo "packing server"
-java -jar "$DIR/bootstrap-voodoo.jar" pack server "$DIR/cotm.lock.json"
+java -jar "$DIR/bootstrap-voodoo.jar" pack server "$DIR/cotm-majik.lock.json"
 if [ ! $? -eq 0 ]; then
     echo "Error in step: Pack Server"
     exit 1

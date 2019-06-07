@@ -6,7 +6,7 @@ cd $DIR
 ../init.sh
 
 echo "packing curse"
-java -jar "$DIR/bootstrap-voodoo.jar" pack curse "$DIR/cotm.lock.json"
+java -jar "$DIR/bootstrap-voodoo.jar" pack curse "$DIR/cotm-majik.lock.json"
 if [ ! $? -eq 0 ]; then
     echo "Error in step: Pack Curse"
     exit 1

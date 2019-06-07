@@ -8,7 +8,7 @@ plugins {
 
 voodoo {
     addTask(name = "build", parameters = listOf("build"))
-    addTask(name = "build_mmc_test", parameters = listOf("build", "cotm_test_mmc"))
+    addTask(name = "build_mmc_test", parameters = listOf("build", "cotm-majik_test_mmc"))
     addTask(name = "pack_sk", parameters = listOf("pack sk"))
     addTask(name = "pack_mmc", parameters = listOf("pack mmc"))
     addTask(name = "pack_mmc-static", parameters = listOf("pack mmc-static"))
@@ -39,14 +39,13 @@ dependencies {
 }
 
 tasks.create("syncConfigs") {
-    group = "cotm"
+    group = "cotm-majik"
     doFirst {
-        val testInstance = File("C:\\Users\\chris\\Documents\\MultiMC\\instances\\voodoo_test_cotm\\.minecraft")
-     // val testInstance = File("/home/nikky/.local/share/multimc/instances/cotm/.minecraft/")
+        val testInstance = File("C:\\Users\\chris\\Documents\\MultiMC\\instances\\voodoo_test_cotm-majik\\.minecraft")
         val configFolder = testInstance.resolve("config")
 
         val sourceFolder = configFolder
-        val targetFolder = project.file("cotm").resolve("config")
+        val targetFolder = project.file("cotm-majik").resolve("config")
         sourceFolder.walkTopDown().forEach { file ->
             val relativeLocation = file.relativeTo(sourceFolder)
             val targetLocation = targetFolder.resolve(relativeLocation)
@@ -61,9 +60,9 @@ tasks.create("syncConfigs") {
 }
 
 tasks.create("listConfigs") {
-    group = "cotm"
+    group = "cotm-majik"
     doFirst {
-        val sourceFolder = project.file("cotm").resolve("config")
+        val sourceFolder = project.file("cotm-majik").resolve("config")
         val paths = sourceFolder.walkTopDown().filter {
             it.isFile && !it.toPath().contains(File("_SERVER").toPath())
         }.map { file ->

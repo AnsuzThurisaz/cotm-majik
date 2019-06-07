@@ -1,15 +1,15 @@
 {
     id: {
         name: ID,
-        value: `cotm`
+        value: `cotm-majik`
     },
     title: {
         name: Title,
-        value: "`Center of the Multiverse`"
+        value: "`Center of the Multiverse - Majik Edition`"
     },
     packVersion: {
         name: "Pack Version",
-        value: `2.3-testing`
+        value: `0.1`
     },
     mcVersion: {
         name: "MC Version",
@@ -21,7 +21,7 @@
     },
     authors: {
         name: Author,
-        value: "`AnsuzThuriaz, Falkreon, NikkyAi`"
+        value: "`AnsuzThuriaz`"
     },
     icon: {
         name: Icon,
