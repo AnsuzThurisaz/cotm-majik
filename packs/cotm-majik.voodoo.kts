@@ -127,9 +127,6 @@ root(CurseProvider) {
         +(Mod.kleeslabs)
         +(Mod.malisisdoors)
         +(Mod.mobGrindingUtils)
-        +(Mod.forestry)
-        +(Mod.binniesMods)
-        +(Mod.magicBees)
         +(Mod.naturesCompass)
         +(Mod.netherex)
         +(Mod.netherportalfix)
@@ -175,13 +172,12 @@ root(CurseProvider) {
         +(Mod.magicalMap)
         +(Mod.pewter)
         +(Mod.grapplingHookMod)
-        +(Mod.embers)
+        +(Mod.embersRekindled)
         +(Mod.outfox)
         +(Mod.chococraft3)
         +(Mod.surge)
         +(Mod.armoryExpansion)
         +(Mod.huntingDimension)
-        +(Mod.theDisenchanterMod)
         +(Mod.doggyTalents)
         +(Mod.lootbags)
         +(Mod.snad)
@@ -209,8 +205,16 @@ root(CurseProvider) {
         +(Mod.wings)
         +(Mod.theErebus)
         +(Mod.hwyla)
+        +(Mod.wawlaWhatAreWeLookingAt)
         +(Mod.dm2)
         +(Mod.smoothbedrock)
+        +(Mod.mysticalAgriculture)
+        +(Mod.mysticalAgradditions)
+        +(Mod.natura)
+        +(Mod.animania)
+        +(Mod.apotheosis)
+        +(Mod.aiImprovements)
+        +(Mod.atum)
 
         // Pre-Testing / Un-used
         // +(Mod.inControl)
@@ -218,6 +222,7 @@ root(CurseProvider) {
         // +(Mod.crafttweaker)
         // +(Mod.modtweaker)
         // +(Mod.tweakersConstruct)
+        // +(Mod.customMainMenu)
 
         // Pulled due to outstanding issues
 
@@ -285,7 +290,6 @@ root(CurseProvider) {
             +(Mod.nonausea)
             +(Mod.betterPlacement)
             +(Mod.controlling)
-//          +(Mod.customMainMenu)
             +(Mod.defaultOptions)
             +(Mod.fullscreenWindowedBorderlessForMinecraft)
             +(Mod.modNameTooltip)
@@ -293,7 +297,8 @@ root(CurseProvider) {
             +(Mod.cleanview)
             +(Mod.craftingTweaks)
             +(Mod.betterAdvancements)
-            +(Mod.betterLoadingScreen)
+            +(Mod.tinkersJei)
+            +(Mod.noRecipeBook)
 
             // OPT-OUT
             group {

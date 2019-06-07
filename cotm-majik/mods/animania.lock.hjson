@@ -1,0 +1,10 @@
+{
+    provider: CURSE,
+    dependencies: {
+        RequiredDependency: [
+            craftstudio-api
+        ]
+    },
+    projectID: 261199,
+    fileID: 2641368
+}

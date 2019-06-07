@@ -1,0 +1,10 @@
+{
+    provider: CURSE,
+    dependencies: {
+        RequiredDependency: [
+            placebo
+        ]
+    },
+    projectID: 313970,
+    fileID: 2716536
+}
