@@ -9,7 +9,7 @@
 mcVersion = "1.12.2"
 title = "CotM-Majik"
 authors = listOf("AnsuzThuriaz")
-version = "0.2-testing"
+version = "0.2-release"
 forge = Forge.mc1_12_2.forge_14_23_5_2838
 icon = rootDir.resolve("icon.png")
 pack {
@@ -215,6 +215,7 @@ root(CurseProvider) {
         +(Mod.apotheosis)
         +(Mod.aiImprovements)
         +(Mod.atum)
+        +(Mod.placebo)
 
         // Pre-Testing / Un-used
         // +(Mod.inControl)
@@ -241,7 +242,6 @@ root(CurseProvider) {
 
             // Falkreon
             +"magic-arsenal" job "elytra/MagicArsenal/master"
-            +"engination" job "elytra/Engination/master"
 
             // unascribed
             +"glass-hearts" job "elytra/GlassHearts/1.12.1"
