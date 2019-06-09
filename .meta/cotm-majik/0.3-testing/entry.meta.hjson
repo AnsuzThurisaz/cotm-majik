@@ -3550,7 +3550,7 @@
         },
         side: {
             name: Side,
-            value: `SERVER`
+            value: `BOTH`
         },
         optional: {
             name: Optional,
@@ -5732,7 +5732,7 @@
         },
         side: {
             name: Side,
-            value: `SERVER`
+            value: `BOTH`
         },
         optional: {
             name: Optional,

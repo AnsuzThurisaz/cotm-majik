@@ -1,6 +1,5 @@
 {
     provider: CURSE,
-    side: SERVER,
     projectID: 224535,
     fileID: 2443253
 }

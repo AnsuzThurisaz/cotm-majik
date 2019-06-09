@@ -1,6 +1,5 @@
 {
     provider: CURSE,
-    side: SERVER,
     dependencies: {
         RequiredDependency: [
             ivtoolkit

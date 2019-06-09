@@ -227,6 +227,8 @@ root(CurseProvider) {
         (+Mod.earthworks)
         (+Mod.villagerMarket)
         (+Mod.tropicraft)
+        +(Mod.recurrentComplex)
+
 
         // Pre-Testing / Un-used
         // +(Mod.inControl)
@@ -264,7 +266,6 @@ root(CurseProvider) {
             +(Mod.btfuContinuousRsyncIncrementalBackup)
             +(Mod.swingthroughgrass)
             +(Mod.colorchat)
-            +(Mod.recurrentComplex)
 
             withProvider(JenkinsProvider) {
                 jenkinsUrl = "https://ci.elytradev.com"
