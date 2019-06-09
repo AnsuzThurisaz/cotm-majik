@@ -173,11 +173,11 @@ Author |  | `SangarWasTaken`
 
 
 
-added `architecturecraft-elytradev`
+added `architecturecraft-tridev`
 
 Property | old value | new value
 ---|---|---
-ID |  | `architecturecraft-elytradev`
+ID |  | `architecturecraft-tridev`
 Version |  | `architecturecraft-1.12-3.80.jar`
 Provider |  | `CURSE`
 Side |  | `BOTH`
@@ -256,6 +256,35 @@ Side |  | `BOTH`
 Optional |  | `false`
 Release Type |  | `Release`
 Author |  | `kreezxil`
+
+
+
+added `baileys-dailies`
+
+Property | old value | new value
+---|---|---
+ID |  | `baileys-dailies`
+Version |  | `dailies-1.12.2-6.jar`
+Provider |  | `CURSE`
+Side |  | `BOTH`
+Optional |  | `false`
+Release Type |  | `Release`
+Author |  | `ToroCraft`
+
+
+
+added `base-metals`
+
+Property | old value | new value
+---|---|---
+ID |  | `base-metals`
+Version |  | `BaseMetals-1.12-2.5.0-rc2.332.jar`
+Provider |  | `CURSE`
+Side |  | `BOTH`
+Optional |  | `false`
+Required Dependencies |  | `mmdlib`, `mmd-orespawn`
+Release Type |  | `Release`
+Author |  | `dshadowwolf, jriwanek`
 
 
 
@@ -516,6 +545,20 @@ Side |  | `BOTH`
 Optional |  | `false`
 Release Type |  | `Release`
 Author |  | `jaquadro`
+
+
+
+added `charm`
+
+Property | old value | new value
+---|---|---
+ID |  | `charm`
+Version |  | `Charm-1.12.2-1.1.7.jar`
+Provider |  | `CURSE`
+Side |  | `BOTH`
+Optional |  | `false`
+Release Type |  | `Release`
+Author |  | `svenhjol`
 
 
 
@@ -942,7 +985,7 @@ added `culinary-construct`
 Property | old value | new value
 ---|---|---
 ID |  | `culinary-construct`
-Version |  | `culinaryconstruct-1.3.2.1.jar`
+Version |  | `culinaryconstruct-1.3.3.jar`
 Provider |  | `CURSE`
 Side |  | `BOTH`
 Optional |  | `false`
@@ -991,6 +1034,20 @@ Side |  | `CLIENT`
 Optional |  | `false`
 Release Type |  | `Release`
 Author |  | `BlayTheNinth`
+
+
+
+added `dense-metals`
+
+Property | old value | new value
+---|---|---
+ID |  | `dense-metals`
+Version |  | `DenseMetals-1.12-1.2.0.21.jar`
+Provider |  | `CURSE`
+Side |  | `BOTH`
+Optional |  | `false`
+Release Type |  | `Release`
+Author |  | `dshadowwolf, jriwanek, knoxhack`
 
 
 
@@ -1056,14 +1113,28 @@ added `dynamic-surroundings`
 Property | old value | new value
 ---|---|---
 ID |  | `dynamic-surroundings`
-Version |  | `DynamicSurroundings-1.12.2-3.5.4.0BETA.jar`
+Version |  | `DynamicSurroundings-1.12.2-3.5.4.3.jar`
 Provider |  | `CURSE`
 Side |  | `CLIENT`
 Description |  | `Caution: Resource heavy. Lots of configurable features that add immersive sound/visual effects. Includes light-level overlay.`
 Optional |  | `true`
 Required Dependencies |  | `orelib`
-Release Type |  | `Beta`
+Release Type |  | `Release`
 Author |  | `OreCruncher`
+
+
+
+added `earthworks`
+
+Property | old value | new value
+---|---|---
+ID |  | `earthworks`
+Version |  | `Earthworks-1.12-1.3.6.jar`
+Provider |  | `CURSE`
+Side |  | `BOTH`
+Optional |  | `false`
+Release Type |  | `Release`
+Author |  | `Alsnder`
 
 
 
@@ -1162,6 +1233,21 @@ Side |  | `BOTH`
 Optional |  | `false`
 Release Type |  | `Release`
 Author |  | `BordListian`
+
+
+
+added `end-metals`
+
+Property | old value | new value
+---|---|---
+ID |  | `end-metals`
+Version |  | `EndMetals-1.12-1.2.0-rc2.67.jar`
+Provider |  | `CURSE`
+Side |  | `BOTH`
+Optional |  | `false`
+Required Dependencies |  | `mmd-orespawn`, `mmdlib`
+Release Type |  | `Release`
+Author |  | `dshadowwolf, jriwanek, knoxhack`
 
 
 
@@ -1890,6 +1976,34 @@ Author |  | `Girafi`
 
 
 
+added `mmd-orespawn`
+
+Property | old value | new value
+---|---|---
+ID |  | `mmd-orespawn`
+Version |  | `OreSpawn-1.12-3.3.1.172.jar`
+Provider |  | `CURSE`
+Side |  | `BOTH`
+Optional |  | `false`
+Release Type |  | `Release`
+Author |  | `dshadowwolf, jriwanek`
+
+
+
+added `mmdlib`
+
+Property | old value | new value
+---|---|---
+ID |  | `mmdlib`
+Version |  | `MMDLib-1.12-1.0.0-rc2.36.jar`
+Provider |  | `CURSE`
+Side |  | `BOTH`
+Optional |  | `false`
+Release Type |  | `Beta`
+Author |  | `Darkhax, dshadowwolf, jriwanek, MinecraftModDevelopment`
+
+
+
 added `mmmmmmmmmmmm`
 
 Property | old value | new value
@@ -2076,6 +2190,21 @@ Description |  | `Simple health and unit frames.`
 Optional |  | `true`
 Release Type |  | `Release`
 Author |  | `Vazkii_`
+
+
+
+added `nether-metals`
+
+Property | old value | new value
+---|---|---
+ID |  | `nether-metals`
+Version |  | `NetherMetals-1.12-1.2.0-rc2.76.jar`
+Provider |  | `CURSE`
+Side |  | `BOTH`
+Optional |  | `false`
+Required Dependencies |  | `mmdlib`, `mmd-orespawn`
+Release Type |  | `Release`
+Author |  | `dshadowwolf, jriwanek, knoxhack`
 
 
 
@@ -2382,11 +2511,26 @@ added `quark`
 Property | old value | new value
 ---|---|---
 ID |  | `quark`
-Version |  | `Quark-r1.5-156.jar`
+Version |  | `Quark-r1.5-158.jar`
 Provider |  | `CURSE`
 Side |  | `BOTH`
 Optional |  | `false`
 Required Dependencies |  | `autoreglib`
+Release Type |  | `Release`
+Author |  | `Vazkii_`
+
+
+
+added `quark-oddities`
+
+Property | old value | new value
+---|---|---
+ID |  | `quark-oddities`
+Version |  | `QuarkOddities-1.12.2.jar`
+Provider |  | `CURSE`
+Side |  | `BOTH`
+Optional |  | `false`
+Required Dependencies |  | `autoreglib`, `quark`
 Release Type |  | `Release`
 Author |  | `Vazkii_`
 
@@ -2425,11 +2569,11 @@ added `randompatches`
 Property | old value | new value
 ---|---|---
 ID |  | `randompatches`
-Version |  | `randompatches-1.12.2-1.16.0.0.jar`
+Version |  | `randompatches-1.12.2-1.16.1.0.jar`
 Provider |  | `CURSE`
 Side |  | `BOTH`
 Optional |  | `false`
-Release Type |  | `Beta`
+Release Type |  | `Release`
 Author |  | `TheRandomLabs`
 
 
@@ -2459,6 +2603,20 @@ Side |  | `CLIENT`
 Optional |  | `false`
 Release Type |  | `Release`
 Author |  | `TechnicianLP`
+
+
+
+added `reborncore`
+
+Property | old value | new value
+---|---|---
+ID |  | `reborncore`
+Version |  | `RebornCore-1.12.2-3.13.12.447-universal.jar`
+Provider |  | `CURSE`
+Side |  | `BOTH`
+Optional |  | `false`
+Release Type |  | `Release`
+Author |  | `Gigabit1011, modmuss50, ProfessorProspector`
 
 
 
@@ -2530,6 +2688,20 @@ Side |  | `BOTH`
 Optional |  | `false`
 Release Type |  | `Release`
 Author |  | `Greymerk`
+
+
+
+added `roost`
+
+Property | old value | new value
+---|---|---
+ID |  | `roost`
+Version |  | `roost-1.12.2-2.0.10.jar`
+Provider |  | `CURSE`
+Side |  | `BOTH`
+Optional |  | `false`
+Release Type |  | `Release`
+Author |  | `Rio, timrwood`
 
 
 
@@ -2630,6 +2802,21 @@ Side |  | `BOTH`
 Optional |  | `false`
 Release Type |  | `Release`
 Author |  | `Jacky1356400, turkey2349`
+
+
+
+added `simple-void-world`
+
+Property | old value | new value
+---|---|---
+ID |  | `simple-void-world`
+Version |  | `Simple-Void-World-1.12-1.2.0.9-universal.jar`
+Provider |  | `CURSE`
+Side |  | `BOTH`
+Optional |  | `false`
+Required Dependencies |  | `reborncore`
+Release Type |  | `Release`
+Author |  | `modmuss50`
 
 
 
@@ -3023,6 +3210,20 @@ Author |  | `xalcon`
 
 
 
+added `tropicraft`
+
+Property | old value | new value
+---|---|---
+ID |  | `tropicraft`
+Version |  | `tropicraft-MC1.12.2-7.1.9.115.jar`
+Provider |  | `CURSE`
+Side |  | `BOTH`
+Optional |  | `false`
+Release Type |  | `Beta`
+Author |  | `Cojomax99, Corosus, Mr_okushama, tterrag1098`
+
+
+
 added `unity`
 
 Property | old value | new value
@@ -3078,6 +3279,20 @@ Side |  | `BOTH`
 Optional |  | `false`
 Release Type |  | `Release`
 Author |  | `Viesis_Gaming`
+
+
+
+added `villager-market`
+
+Property | old value | new value
+---|---|---
+ID |  | `villager-market`
+Version |  | `villager-market-1.12.2-1.0.1.jar`
+Provider |  | `CURSE`
+Side |  | `BOTH`
+Optional |  | `false`
+Release Type |  | `Beta`
+Author |  | `Face_of_Cat`
 
 
 

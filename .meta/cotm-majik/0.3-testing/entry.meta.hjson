@@ -349,10 +349,10 @@
             value: `SangarWasTaken`
         }
     },
-    architecturecraft-elytradev: {
+    architecturecraft-tridev: {
         id: {
             name: ID,
-            value: `architecturecraft-elytradev`
+            value: `architecturecraft-tridev`
         },
         version: {
             name: Version,
@@ -535,6 +535,70 @@
         curse_author: {
             name: Author,
             value: `kreezxil`
+        }
+    },
+    baileys-dailies: {
+        id: {
+            name: ID,
+            value: `baileys-dailies`
+        },
+        version: {
+            name: Version,
+            value: `dailies-1.12.2-6.jar`
+        },
+        provider: {
+            name: Provider,
+            value: `CURSE`
+        },
+        side: {
+            name: Side,
+            value: `BOTH`
+        },
+        optional: {
+            name: Optional,
+            value: `false`
+        },
+        curse_release_type: {
+            name: "Release Type",
+            value: `Release`
+        },
+        curse_author: {
+            name: Author,
+            value: `ToroCraft`
+        }
+    },
+    base-metals: {
+        id: {
+            name: ID,
+            value: `base-metals`
+        },
+        version: {
+            name: Version,
+            value: `BaseMetals-1.12-2.5.0-rc2.332.jar`
+        },
+        provider: {
+            name: Provider,
+            value: `CURSE`
+        },
+        side: {
+            name: Side,
+            value: `BOTH`
+        },
+        optional: {
+            name: Optional,
+            value: `false`
+        },
+        dependencies_required: {
+            name: "Required Dependencies",
+            value: "`mmdlib`, `mmd-orespawn`"
+        },
+        curse_release_type: {
+            name: "Release Type",
+            value: `Release`
+        },
+        curse_author: {
+            name: Author,
+            value: "`dshadowwolf, jriwanek`"
         }
     },
     baubles: {
@@ -1107,6 +1171,36 @@
         curse_author: {
             name: Author,
             value: `jaquadro`
+        }
+    },
+    charm: {
+        id: {
+            name: ID,
+            value: `charm`
+        },
+        version: {
+            name: Version,
+            value: `Charm-1.12.2-1.1.7.jar`
+        },
+        provider: {
+            name: Provider,
+            value: `CURSE`
+        },
+        side: {
+            name: Side,
+            value: `BOTH`
+        },
+        optional: {
+            name: Optional,
+            value: `false`
+        },
+        curse_release_type: {
+            name: "Release Type",
+            value: `Release`
+        },
+        curse_author: {
+            name: Author,
+            value: `svenhjol`
         }
     },
     charset-audio: {
@@ -2034,7 +2128,7 @@
         },
         version: {
             name: Version,
-            value: `culinaryconstruct-1.3.2.1.jar`
+            value: `culinaryconstruct-1.3.3.jar`
         },
         provider: {
             name: Provider,
@@ -2149,6 +2243,36 @@
         curse_author: {
             name: Author,
             value: `BlayTheNinth`
+        }
+    },
+    dense-metals: {
+        id: {
+            name: ID,
+            value: `dense-metals`
+        },
+        version: {
+            name: Version,
+            value: `DenseMetals-1.12-1.2.0.21.jar`
+        },
+        provider: {
+            name: Provider,
+            value: `CURSE`
+        },
+        side: {
+            name: Side,
+            value: `BOTH`
+        },
+        optional: {
+            name: Optional,
+            value: `false`
+        },
+        curse_release_type: {
+            name: "Release Type",
+            value: `Release`
+        },
+        curse_author: {
+            name: Author,
+            value: "`dshadowwolf, jriwanek, knoxhack`"
         }
     },
     dimensionaldoors: {
@@ -2282,7 +2406,7 @@
         },
         version: {
             name: Version,
-            value: `DynamicSurroundings-1.12.2-3.5.4.0BETA.jar`
+            value: `DynamicSurroundings-1.12.2-3.5.4.3.jar`
         },
         provider: {
             name: Provider,
@@ -2306,11 +2430,41 @@
         },
         curse_release_type: {
             name: "Release Type",
-            value: `Beta`
+            value: `Release`
         },
         curse_author: {
             name: Author,
             value: `OreCruncher`
+        }
+    },
+    earthworks: {
+        id: {
+            name: ID,
+            value: `earthworks`
+        },
+        version: {
+            name: Version,
+            value: `Earthworks-1.12-1.3.6.jar`
+        },
+        provider: {
+            name: Provider,
+            value: `CURSE`
+        },
+        side: {
+            name: Side,
+            value: `BOTH`
+        },
+        optional: {
+            name: Optional,
+            value: `false`
+        },
+        curse_release_type: {
+            name: "Release Type",
+            value: `Release`
+        },
+        curse_author: {
+            name: Author,
+            value: `Alsnder`
         }
     },
     electroblobs-wizardry: {
@@ -2521,6 +2675,40 @@
         curse_author: {
             name: Author,
             value: `BordListian`
+        }
+    },
+    end-metals: {
+        id: {
+            name: ID,
+            value: `end-metals`
+        },
+        version: {
+            name: Version,
+            value: `EndMetals-1.12-1.2.0-rc2.67.jar`
+        },
+        provider: {
+            name: Provider,
+            value: `CURSE`
+        },
+        side: {
+            name: Side,
+            value: `BOTH`
+        },
+        optional: {
+            name: Optional,
+            value: `false`
+        },
+        dependencies_required: {
+            name: "Required Dependencies",
+            value: "`mmd-orespawn`, `mmdlib`"
+        },
+        curse_release_type: {
+            name: "Release Type",
+            value: `Release`
+        },
+        curse_author: {
+            name: Author,
+            value: "`dshadowwolf, jriwanek, knoxhack`"
         }
     },
     ender-storage-1-8: {
@@ -4123,6 +4311,66 @@
             value: `Girafi`
         }
     },
+    mmd-orespawn: {
+        id: {
+            name: ID,
+            value: `mmd-orespawn`
+        },
+        version: {
+            name: Version,
+            value: `OreSpawn-1.12-3.3.1.172.jar`
+        },
+        provider: {
+            name: Provider,
+            value: `CURSE`
+        },
+        side: {
+            name: Side,
+            value: `BOTH`
+        },
+        optional: {
+            name: Optional,
+            value: `false`
+        },
+        curse_release_type: {
+            name: "Release Type",
+            value: `Release`
+        },
+        curse_author: {
+            name: Author,
+            value: "`dshadowwolf, jriwanek`"
+        }
+    },
+    mmdlib: {
+        id: {
+            name: ID,
+            value: `mmdlib`
+        },
+        version: {
+            name: Version,
+            value: `MMDLib-1.12-1.0.0-rc2.36.jar`
+        },
+        provider: {
+            name: Provider,
+            value: `CURSE`
+        },
+        side: {
+            name: Side,
+            value: `BOTH`
+        },
+        optional: {
+            name: Optional,
+            value: `false`
+        },
+        curse_release_type: {
+            name: "Release Type",
+            value: `Beta`
+        },
+        curse_author: {
+            name: Author,
+            value: "`Darkhax, dshadowwolf, jriwanek, MinecraftModDevelopment`"
+        }
+    },
     mmmmmmmmmmmm: {
         id: {
             name: ID,
@@ -4539,6 +4787,40 @@
         curse_author: {
             name: Author,
             value: `Vazkii_`
+        }
+    },
+    nether-metals: {
+        id: {
+            name: ID,
+            value: `nether-metals`
+        },
+        version: {
+            name: Version,
+            value: `NetherMetals-1.12-1.2.0-rc2.76.jar`
+        },
+        provider: {
+            name: Provider,
+            value: `CURSE`
+        },
+        side: {
+            name: Side,
+            value: `BOTH`
+        },
+        optional: {
+            name: Optional,
+            value: `false`
+        },
+        dependencies_required: {
+            name: "Required Dependencies",
+            value: "`mmdlib`, `mmd-orespawn`"
+        },
+        curse_release_type: {
+            name: "Release Type",
+            value: `Release`
+        },
+        curse_author: {
+            name: Author,
+            value: "`dshadowwolf, jriwanek, knoxhack`"
         }
     },
     netherex: {
@@ -5194,7 +5476,7 @@
         },
         version: {
             name: Version,
-            value: `Quark-r1.5-156.jar`
+            value: `Quark-r1.5-158.jar`
         },
         provider: {
             name: Provider,
@@ -5211,6 +5493,40 @@
         dependencies_required: {
             name: "Required Dependencies",
             value: `autoreglib`
+        },
+        curse_release_type: {
+            name: "Release Type",
+            value: `Release`
+        },
+        curse_author: {
+            name: Author,
+            value: `Vazkii_`
+        }
+    },
+    quark-oddities: {
+        id: {
+            name: ID,
+            value: `quark-oddities`
+        },
+        version: {
+            name: Version,
+            value: `QuarkOddities-1.12.2.jar`
+        },
+        provider: {
+            name: Provider,
+            value: `CURSE`
+        },
+        side: {
+            name: Side,
+            value: `BOTH`
+        },
+        optional: {
+            name: Optional,
+            value: `false`
+        },
+        dependencies_required: {
+            name: "Required Dependencies",
+            value: "`autoreglib`, `quark`"
         },
         curse_release_type: {
             name: "Release Type",
@@ -5288,7 +5604,7 @@
         },
         version: {
             name: Version,
-            value: `randompatches-1.12.2-1.16.0.0.jar`
+            value: `randompatches-1.12.2-1.16.1.0.jar`
         },
         provider: {
             name: Provider,
@@ -5304,7 +5620,7 @@
         },
         curse_release_type: {
             name: "Release Type",
-            value: `Beta`
+            value: `Release`
         },
         curse_author: {
             name: Author,
@@ -5369,6 +5685,36 @@
         curse_author: {
             name: Author,
             value: `TechnicianLP`
+        }
+    },
+    reborncore: {
+        id: {
+            name: ID,
+            value: `reborncore`
+        },
+        version: {
+            name: Version,
+            value: `RebornCore-1.12.2-3.13.12.447-universal.jar`
+        },
+        provider: {
+            name: Provider,
+            value: `CURSE`
+        },
+        side: {
+            name: Side,
+            value: `BOTH`
+        },
+        optional: {
+            name: Optional,
+            value: `false`
+        },
+        curse_release_type: {
+            name: "Release Type",
+            value: `Release`
+        },
+        curse_author: {
+            name: Author,
+            value: "`Gigabit1011, modmuss50, ProfessorProspector`"
         }
     },
     recurrent-complex: {
@@ -5523,6 +5869,36 @@
         curse_author: {
             name: Author,
             value: `Greymerk`
+        }
+    },
+    roost: {
+        id: {
+            name: ID,
+            value: `roost`
+        },
+        version: {
+            name: Version,
+            value: `roost-1.12.2-2.0.10.jar`
+        },
+        provider: {
+            name: Provider,
+            value: `CURSE`
+        },
+        side: {
+            name: Side,
+            value: `BOTH`
+        },
+        optional: {
+            name: Optional,
+            value: `false`
+        },
+        curse_release_type: {
+            name: "Release Type",
+            value: `Release`
+        },
+        curse_author: {
+            name: Author,
+            value: "`Rio, timrwood`"
         }
     },
     roots: {
@@ -5741,6 +6117,40 @@
         curse_author: {
             name: Author,
             value: "`Jacky1356400, turkey2349`"
+        }
+    },
+    simple-void-world: {
+        id: {
+            name: ID,
+            value: `simple-void-world`
+        },
+        version: {
+            name: Version,
+            value: `Simple-Void-World-1.12-1.2.0.9-universal.jar`
+        },
+        provider: {
+            name: Provider,
+            value: `CURSE`
+        },
+        side: {
+            name: Side,
+            value: `BOTH`
+        },
+        optional: {
+            name: Optional,
+            value: `false`
+        },
+        dependencies_required: {
+            name: "Required Dependencies",
+            value: `reborncore`
+        },
+        curse_release_type: {
+            name: "Release Type",
+            value: `Release`
+        },
+        curse_author: {
+            name: Author,
+            value: `modmuss50`
         }
     },
     slice: {
@@ -6601,6 +7011,36 @@
             value: `xalcon`
         }
     },
+    tropicraft: {
+        id: {
+            name: ID,
+            value: `tropicraft`
+        },
+        version: {
+            name: Version,
+            value: `tropicraft-MC1.12.2-7.1.9.115.jar`
+        },
+        provider: {
+            name: Provider,
+            value: `CURSE`
+        },
+        side: {
+            name: Side,
+            value: `BOTH`
+        },
+        optional: {
+            name: Optional,
+            value: `false`
+        },
+        curse_release_type: {
+            name: "Release Type",
+            value: `Beta`
+        },
+        curse_author: {
+            name: Author,
+            value: "`Cojomax99, Corosus, Mr_okushama, tterrag1098`"
+        }
+    },
     unity: {
         id: {
             name: ID,
@@ -6727,6 +7167,36 @@
         curse_author: {
             name: Author,
             value: `Viesis_Gaming`
+        }
+    },
+    villager-market: {
+        id: {
+            name: ID,
+            value: `villager-market`
+        },
+        version: {
+            name: Version,
+            value: `villager-market-1.12.2-1.0.1.jar`
+        },
+        provider: {
+            name: Provider,
+            value: `CURSE`
+        },
+        side: {
+            name: Side,
+            value: `BOTH`
+        },
+        optional: {
+            name: Optional,
+            value: `false`
+        },
+        curse_release_type: {
+            name: "Release Type",
+            value: `Beta`
+        },
+        curse_author: {
+            name: Author,
+            value: `Face_of_Cat`
         }
     },
     wall-jump: {

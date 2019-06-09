@@ -38,6 +38,7 @@ root(CurseProvider) {
         +(Mod.botania)
         +(Mod.psi)
         +(Mod.quark)
+        (+Mod.quarkOddities)
         +(Mod.morphOTool)
 
         // Sangar
@@ -185,7 +186,7 @@ root(CurseProvider) {
         +(Mod.blockcraftery)
         +(Mod.colytra)
         +(Mod.cathedral)
-        +(Mod.architecturecraftElytradev)
+        +(Mod.architecturecraftTridev)
         +(Mod.futureMc)
         +(Mod.theLostCities)
         +(Mod.evilcraft)
@@ -216,6 +217,18 @@ root(CurseProvider) {
         +(Mod.aiImprovements)
         +(Mod.atum)
         +(Mod.placebo)
+        +(Mod.charm)
+        +(Mod.roost)
+        (+Mod.simpleVoidWorld)
+        (+Mod.baileysDailies)
+        (+Mod.baseMetals)
+        (+Mod.denseMetals)
+        (+Mod.endMetals)
+        (+Mod.netherMetals)
+        (+Mod.earthworks)
+        (+Mod.villagerMarket)
+        (+Mod.tropicraft)
+
 
         // Pre-Testing / Un-used
         // +(Mod.inControl)
@@ -396,7 +409,6 @@ root(CurseProvider) {
                 +(Mod.dynamicSurroundings) configure {
                     description =
                             "Caution: Resource heavy. Lots of configurable features that add immersive sound/visual effects. Includes light-level overlay."
-                    version = "3.5.4.0BETA"
                 }
 
                 +(Mod.rpgHud) configure {

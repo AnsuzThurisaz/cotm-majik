@@ -1,0 +1,11 @@
+{
+    provider: CURSE,
+    dependencies: {
+        RequiredDependency: [
+            mmdlib,
+            mmd-orespawn
+        ]
+    },
+    projectID: 240967,
+    fileID: 2712965
+}
