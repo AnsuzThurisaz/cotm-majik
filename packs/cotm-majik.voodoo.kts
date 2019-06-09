@@ -137,7 +137,6 @@ root(CurseProvider) {
         +(Mod.pamsHarvestcraft)
         +(Mod.passthroughSigns)
         +(Mod.randomThings)
-        +(Mod.recurrentComplex)
         +(Mod.redstoneFlux)
         +(Mod.roguelikeDungeons)
         +(Mod.roots)
@@ -229,7 +228,6 @@ root(CurseProvider) {
         (+Mod.villagerMarket)
         (+Mod.tropicraft)
 
-
         // Pre-Testing / Un-used
         // +(Mod.inControl)
         // +(Mod.justEnoughDimensions)
@@ -266,6 +264,8 @@ root(CurseProvider) {
             +(Mod.btfuContinuousRsyncIncrementalBackup)
             +(Mod.swingthroughgrass)
             +(Mod.colorchat)
+            +(Mod.recurrentComplex)
+
             withProvider(JenkinsProvider) {
                 jenkinsUrl = "https://ci.elytradev.com"
             }.list {

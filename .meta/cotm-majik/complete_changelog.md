@@ -1633,7 +1633,7 @@ Property | old value | new value
 ID |  | `ivtoolkit`
 Version |  | `IvToolkit-1.3.3-1.12.jar`
 Provider |  | `CURSE`
-Side |  | `BOTH`
+Side |  | `SERVER`
 Optional |  | `false`
 Release Type |  | `Release`
 Author |  | `Ivorforce`
@@ -2627,7 +2627,7 @@ Property | old value | new value
 ID |  | `recurrent-complex`
 Version |  | `RecurrentComplex-1.4.8.2.jar`
 Provider |  | `CURSE`
-Side |  | `BOTH`
+Side |  | `SERVER`
 Optional |  | `false`
 Required Dependencies |  | `ivtoolkit`
 Release Type |  | `Release`
