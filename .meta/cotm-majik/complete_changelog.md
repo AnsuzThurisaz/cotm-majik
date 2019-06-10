@@ -3402,7 +3402,7 @@ added `yoyos`
 Property | old value | new value
 ---|---|---
 ID |  | `yoyos`
-Version |  | `yoyos_1.12.2-1.2.2.20.jar`
+Version |  | `yoyos_1.12.2-1.3.0.21.jar`
 Provider |  | `CURSE`
 Side |  | `BOTH`
 Optional |  | `false`
@@ -3410,6 +3410,18 @@ Release Type |  | `Release`
 Author |  | `Raven2396`
 
 
+
+
+
+
+
+# CotM-Majik 0.3-release
+
+Property | old value | new value
+---|---|---
+Pack Version | `0.3-testing` | `0.3-release`
+
+No change in entries
 
 
 
