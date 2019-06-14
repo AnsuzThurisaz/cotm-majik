@@ -9,7 +9,7 @@
 mcVersion = "1.12.2"
 title = "CotM-Majik"
 authors = listOf("AnsuzThuriaz")
-version = "0.3-release"
+version = "0.3.1-testing"
 forge = Forge.mc1_12_2.forge_14_23_5_2838
 icon = rootDir.resolve("icon.png")
 pack {
@@ -228,7 +228,7 @@ root(CurseProvider) {
         (+Mod.villagerMarket)
         (+Mod.tropicraft)
         +(Mod.recurrentComplex)
-
+        +(Mod.bookshelf)
 
         // Pre-Testing / Un-used
         // +(Mod.inControl)

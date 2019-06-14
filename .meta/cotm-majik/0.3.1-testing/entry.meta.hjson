@@ -6,7 +6,7 @@
         },
         version: {
             name: Version,
-            value: `TheBetweenlands-3.4.7-universal.jar`
+            value: `TheBetweenlands-3.4.8-universal.jar`
         },
         provider: {
             name: Provider,
@@ -1004,7 +1004,7 @@
         },
         curse_release_type: {
             name: "Release Type",
-            value: `Alpha`
+            value: `Release`
         },
         curse_author: {
             name: Author,
@@ -2068,7 +2068,7 @@
         },
         version: {
             name: Version,
-            value: `CraftTweaker2-1.12-4.1.18.jar`
+            value: `CraftTweaker2-1.12-4.1.19.jar`
         },
         provider: {
             name: Provider,
@@ -2312,7 +2312,7 @@
         },
         version: {
             name: Version,
-            value: `DoggyTalents-1.12.2-1.15.0.0-universal.jar`
+            value: `DoggyTalents-1.12.2-1.15.0.1-universal.jar`
         },
         provider: {
             name: Provider,
@@ -2342,7 +2342,7 @@
         },
         version: {
             name: Version,
-            value: `DragonMounts-1.12.2-1.5.8(HOTFIX).jar`
+            value: `DragonMounts.jar`
         },
         provider: {
             name: Provider,
@@ -2358,7 +2358,7 @@
         },
         curse_release_type: {
             name: "Release Type",
-            value: `Release`
+            value: `Beta`
         },
         curse_author: {
             name: Author,
@@ -3674,7 +3674,7 @@
         },
         version: {
             name: Version,
-            value: `jei_1.12.2-4.15.0.280.jar`
+            value: `jei_1.12.2-4.15.0.281.jar`
         },
         provider: {
             name: Provider,
@@ -5476,7 +5476,7 @@
         },
         version: {
             name: Version,
-            value: `Quark-r1.5-158.jar`
+            value: `Quark-r1.5-159.jar`
         },
         provider: {
             name: Provider,
@@ -5898,7 +5898,7 @@
         },
         curse_author: {
             name: Author,
-            value: "`Rio, timrwood`"
+            value: "`codewarrior0, timrwood`"
         }
     },
     roots: {

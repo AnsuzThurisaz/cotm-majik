@@ -2,7 +2,7 @@
     id: cotm-majik,
     mcVersion: 1.12.2,
     title: CotM-Majik,
-    version: 0.3-release,
+    version: 0.3.1-testing,
     authors: [
         AnsuzThuriaz
     ],

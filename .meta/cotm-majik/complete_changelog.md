@@ -3421,7 +3421,148 @@ Property | old value | new value
 ---|---|---
 Pack Version | `0.3-testing` | `0.3-release`
 
-No change in entries
+
+## Entries
+
+### Updated Entries
+
+updated `bookshelf`
+
+Property | old value | new value
+---|---|---
+Version | `Bookshelf-1.12.2-2.3.582.jar` | `Bookshelf-1.12.2-2.3.584.jar`
+
+
+
+updated `charm`
+
+Property | old value | new value
+---|---|---
+Version | `Charm-1.12.2-1.1.7.jar` | `Charm-1.12.2-1.1.12.jar`
+
+
+
+updated `hunting-dimension`
+
+Property | old value | new value
+---|---|---
+Version | `HuntingDimension-1.12.2-1.0.38.jar` | `HuntingDimension-1.12.2-1.0.39.jar`
+
+
+
+updated `just-enough-harvestcraft`
+
+Property | old value | new value
+---|---|---
+Version | `jehc-1.12.2-1.6.3.jar` | `jehc-1.12.2-1.6.4.jar`
+
+
+
+updated `just-enough-resources-jer`
+
+Property | old value | new value
+---|---|---
+Version | `JustEnoughResources-1.12.2-0.9.1.56.jar` | `JustEnoughResources-1.12.2-0.9.2.58.jar`
+Release Type | `Alpha` | `Release`
+
+
+
+updated `the-aether-ii`
+
+Property | old value | new value
+---|---|---
+Version | `aether_ii-1.12.2-0.2.1+build74-universal.jar` | `aether_ii-1.12.2-0.2.2+build79-universal.jar`
+
+
+
+updated `wizardry-mod`
+
+Property | old value | new value
+---|---|---
+Version | `wizardry-0.10.6.jar` | `wizardry-0.10.7.jar`
+Required Dependencies | `shadowfacts-forgelin`, `librarianlib` | `librarianlib`, `shadowfacts-forgelin`
+
+
+
+
+
+
+
+# CotM-Majik 0.3.1-testing
+
+Property | old value | new value
+---|---|---
+Pack Version | `0.3-release` | `0.3.1-testing`
+
+
+## Entries
+
+### Updated Entries
+
+updated `angry-pixel-the-betweenlands-mod`
+
+Property | old value | new value
+---|---|---
+Version | `TheBetweenlands-3.4.7-universal.jar` | `TheBetweenlands-3.4.8-universal.jar`
+
+
+
+updated `bookshelf`
+
+Property | old value | new value
+---|---|---
+Release Type | `Alpha` | `Release`
+
+
+
+updated `crafttweaker`
+
+Property | old value | new value
+---|---|---
+Version | `CraftTweaker2-1.12-4.1.18.jar` | `CraftTweaker2-1.12-4.1.19.jar`
+
+
+
+updated `doggy-talents`
+
+Property | old value | new value
+---|---|---
+Version | `DoggyTalents-1.12.2-1.15.0.0-universal.jar` | `DoggyTalents-1.12.2-1.15.0.1-universal.jar`
+
+
+
+updated `dm2`
+
+Property | old value | new value
+---|---|---
+Version | `DragonMounts-1.12.2-1.5.8(HOTFIX).jar` | `DragonMounts.jar`
+Release Type | `Release` | `Beta`
+
+
+
+updated `jei`
+
+Property | old value | new value
+---|---|---
+Version | `jei_1.12.2-4.15.0.280.jar` | `jei_1.12.2-4.15.0.281.jar`
+
+
+
+updated `quark`
+
+Property | old value | new value
+---|---|---
+Version | `Quark-r1.5-158.jar` | `Quark-r1.5-159.jar`
+
+
+
+updated `roost`
+
+Property | old value | new value
+---|---|---
+Author | `Rio, timrwood` | `codewarrior0, timrwood`
+
+
 
 
 
