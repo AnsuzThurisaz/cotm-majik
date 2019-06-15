@@ -9,7 +9,7 @@
 mcVersion = "1.12.2"
 title = "CotM-Majik"
 authors = listOf("AnsuzThuriaz")
-version = "0.3.2-release"
+version = "0.3.3-release"
 forge = Forge.mc1_12_2.forge_14_23_5_2838
 icon = rootDir.resolve("icon.png")
 pack {
@@ -114,6 +114,7 @@ root(CurseProvider) {
         +(Mod.foamfixForMinecraft)
         +(Mod.unlimitedChiselWorks)
         +(Mod.preston)
+        +(Mod.tinkeredHegemony)
 
         +(Mod.enderStorage18)
         +(Mod.extraBitManipulation)
