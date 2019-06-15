@@ -3,3 +3,4 @@
 0.3.1-testing
 0.3.1-release
 0.3.2-testing
+0.3.2-release

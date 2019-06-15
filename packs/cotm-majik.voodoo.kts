@@ -9,7 +9,7 @@
 mcVersion = "1.12.2"
 title = "CotM-Majik"
 authors = listOf("AnsuzThuriaz")
-version = "0.3.2-testing"
+version = "0.3.2-release"
 forge = Forge.mc1_12_2.forge_14_23_5_2838
 icon = rootDir.resolve("icon.png")
 pack {
@@ -214,7 +214,6 @@ root(CurseProvider) {
         +(Mod.apotheosis)
         +(Mod.aiImprovements)
         +(Mod.atum)
-        +(Mod.placebo)
         +(Mod.charm)
         +(Mod.roost)
         +(Mod.simpleVoidWorld)
@@ -227,7 +226,11 @@ root(CurseProvider) {
         +(Mod.villagerMarket)
         +(Mod.tropicraft)
         +(Mod.recurrentComplex)
+
+        // Unstable Dependancies
         +(Mod.bookshelf)
+        +(Mod.placebo)
+        +(Mod.shadowfactsForgelin)
 
         // Pre-Testing / Un-used
         // +(Mod.inControl)
