@@ -9,7 +9,7 @@
 mcVersion = "1.12.2"
 title = "CotM-Majik"
 authors = listOf("AnsuzThuriaz")
-version = "0.3.1-release"
+version = "0.3.2-testing"
 forge = Forge.mc1_12_2.forge_14_23_5_2838
 icon = rootDir.resolve("icon.png")
 pack {
@@ -209,8 +209,6 @@ root(CurseProvider) {
             releaseTypes = setOf(FileType.Release)
         }
         +(Mod.smoothbedrock)
-        +(Mod.mysticalAgriculture)
-        +(Mod.mysticalAgradditions)
         +(Mod.natura)
         +(Mod.animania)
         +(Mod.apotheosis)
@@ -219,15 +217,15 @@ root(CurseProvider) {
         +(Mod.placebo)
         +(Mod.charm)
         +(Mod.roost)
-        (+Mod.simpleVoidWorld)
-        (+Mod.baileysDailies)
-        (+Mod.baseMetals)
-        (+Mod.denseMetals)
-        (+Mod.endMetals)
-        (+Mod.netherMetals)
-        (+Mod.earthworks)
-        (+Mod.villagerMarket)
-        (+Mod.tropicraft)
+        +(Mod.simpleVoidWorld)
+        +(Mod.baileysDailies)
+        +(Mod.baseMetals)
+        +(Mod.denseMetals)
+        +(Mod.endMetals)
+        +(Mod.netherMetals)
+        +(Mod.earthworks)
+        +(Mod.villagerMarket)
+        +(Mod.tropicraft)
         +(Mod.recurrentComplex)
         +(Mod.bookshelf)
 
