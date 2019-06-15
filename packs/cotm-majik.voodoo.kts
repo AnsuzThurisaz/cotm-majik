@@ -9,7 +9,7 @@
 mcVersion = "1.12.2"
 title = "CotM-Majik"
 authors = listOf("AnsuzThuriaz")
-version = "0.3.1-testing"
+version = "0.3.1-release"
 forge = Forge.mc1_12_2.forge_14_23_5_2838
 icon = rootDir.resolve("icon.png")
 pack {
@@ -164,7 +164,6 @@ root(CurseProvider) {
         +(Mod.fastfurnace)
         +(Mod.dimensionaldoors)
         +(Mod.betterBuildersWands)
-        +(Mod.antighost)
         +(Mod.loginShield)
         +(Mod.caliper)
         +(Mod.flopper)
@@ -206,7 +205,9 @@ root(CurseProvider) {
         +(Mod.theErebus)
         +(Mod.hwyla)
         +(Mod.wawlaWhatAreWeLookingAt)
-        +(Mod.dm2)
+        +(Mod.dm2) configure {
+            releaseTypes = setOf(FileType.Release)
+        }
         +(Mod.smoothbedrock)
         +(Mod.mysticalAgriculture)
         +(Mod.mysticalAgradditions)
@@ -313,6 +314,8 @@ root(CurseProvider) {
             +(Mod.betterAdvancements)
             +(Mod.tinkersJei)
             +(Mod.noRecipeBook)
+            +(Mod.ctm)
+            +(Mod.antighost)
 
             // OPT-OUT
             group {
