@@ -3,12 +3,12 @@ import voodoo.util.unixPath
 plugins {
     // kotlin("jvm") version "1.3.20" // automatically applied
     // idea // automatically applied
-    id("voodoo") version "0.4.7-SNAPSHOT"
+    id("voodoo") version "0.4.8-SNAPSHOT"
 }
 
 voodoo {
     addTask(name = "build", parameters = listOf("build"))
-    addTask(name = "build_mmc_test", parameters = listOf("build", "cotm-majik_test_mmc"))
+    addTask(name = "build_mmc_test", parameters = listOf("build", "test_mmc"))
     addTask(name = "pack_sk", parameters = listOf("pack sk"))
     addTask(name = "pack_mmc", parameters = listOf("pack mmc"))
     addTask(name = "pack_mmc-static", parameters = listOf("pack mmc-static"))

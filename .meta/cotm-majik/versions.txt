@@ -5,3 +5,5 @@
 0.3.2-testing
 0.3.2-release
 0.3.3-release
+0.3.4-testing
+0.3.4-release

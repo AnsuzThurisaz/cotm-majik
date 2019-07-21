@@ -5,10 +5,10 @@
     optionalData: {
     },
     dependencies: {
-        RequiredDependency: [
+        REQUIRED: [
             jei
         ]
     },
     projectID: 240630,
-    fileID: 2722883
+    fileID: 2728585
 }

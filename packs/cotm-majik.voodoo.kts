@@ -9,7 +9,7 @@
 mcVersion = "1.12.2"
 title = "CotM-Majik"
 authors = listOf("AnsuzThuriaz")
-version = "0.3.3-release"
+version = "0.3.4-testing"
 forge = Forge.mc1_12_2.forge_14_23_5_2838
 icon = rootDir.resolve("icon.png")
 pack {
@@ -206,9 +206,7 @@ root(CurseProvider) {
         +(Mod.theErebus)
         +(Mod.hwyla)
         +(Mod.wawlaWhatAreWeLookingAt)
-        +(Mod.dm2) configure {
-            releaseTypes = setOf(FileType.Release)
-        }
+        +(Mod.dm2)
         +(Mod.smoothbedrock)
         +(Mod.natura)
         +(Mod.animania)
@@ -245,7 +243,7 @@ root(CurseProvider) {
 
         withProvider(DirectProvider).list {
             +"nutrition" configure {
-                url = "https://github.com/WesCook/Nutrition/releases/download/v4.3.0/Nutrition-1.12.2-4.3.0.jar"
+                url = "https://github.com/WesCook/Nutrition/releases/download/v4.3.0/Nutrition-1.12.2-4.4.0.jar"
             }
         }
 
