@@ -9,7 +9,7 @@
 mcVersion = "1.12.2"
 title = "CotM-Majik"
 authors = listOf("AnsuzThuriaz")
-version = "0.3.4-testing"
+version = "0.3.4-rc3"
 forge = Forge.mc1_12_2.forge_14_23_5_2838
 icon = rootDir.resolve("icon.png")
 pack {
@@ -114,7 +114,6 @@ root(CurseProvider) {
         +(Mod.foamfixForMinecraft)
         +(Mod.unlimitedChiselWorks)
         +(Mod.preston)
-        +(Mod.tinkeredHegemony)
 
         +(Mod.enderStorage18)
         +(Mod.extraBitManipulation)
@@ -243,7 +242,7 @@ root(CurseProvider) {
 
         withProvider(DirectProvider).list {
             +"nutrition" configure {
-                url = "https://github.com/WesCook/Nutrition/releases/download/v4.3.0/Nutrition-1.12.2-4.4.0.jar"
+                url = "https://github.com/WesCook/Nutrition/releases/download/v4.4.0/Nutrition-1.12.2-4.4.0.jar"
             }
         }
 
@@ -275,191 +274,191 @@ root(CurseProvider) {
             }
         }
 
-        group {
-            side = Side.BOTH
-            optional {
-                selected = false
-            }
-
-        }.list {
-
-            +(Mod.laggoggles) configure {
-                description = "***Admin/diagnostic tool. Leave off unless asked to help test performance issues."
-            }
-            +(Mod.sampler) configure {
-                description = "***Admin/diagnostic tool. Leave off unless asked to help test performance issues."
-            }
-            +(Mod.openeye) configure {
-                description =
-                        "Automatically collects and submits crash reports. Enable if asked or wish to help sort issues with the pack."
-            }
-        }
-
-        group {
-            side = Side.CLIENT
-        }.list {
-            +(Mod.toastControl)
-            +(Mod.jeiIntegration)
-            +(Mod.appleskin)
-            +(Mod.betterfps)
-            +(Mod.nonausea)
-            +(Mod.betterPlacement)
-            +(Mod.controlling)
-            +(Mod.defaultOptions)
-            +(Mod.fullscreenWindowedBorderlessForMinecraft)
-            +(Mod.modNameTooltip)
-            +(Mod.reauth)
-            +(Mod.cleanview)
-            +(Mod.craftingTweaks)
-            +(Mod.betterAdvancements)
-            +(Mod.tinkersJei)
-            +(Mod.noRecipeBook)
-            +(Mod.ctm)
-            +(Mod.antighost)
-
-            // OPT-OUT
             group {
-                optional {
-                    selected = true
-                    skRecommendation = Recommendation.starred
-                }
-            }.list {
-
-                +(Mod.journeymap) configure {
-                    description = "Mod-compatible mini-map."
-                }
-
-                +(Mod.mage) configure {
-                    description = "Configurable graphics enhancements. Highly recomended."
-                }
-
-                +(Mod.neat) configure {
-                    description = "Simple health and unit frames."
-                }
-
-                +(Mod.clientTweaks) configure {
-                    description = "Various client related fixes and tweaks, all in a handy menu."
-                }
-
-                +(Mod.mouseTweaks) configure {
-                    description = "Add extra mouse gestures for inventories and crafting grids."
-                }
-
-                +(Mod.smoothFont) configure {
-                    description = "It smoothes fonts."
-                }
-
-                +(Mod.inventoryTweaks) configure {
-                    description = "Adds amll changes to invetory handling to minor conviniences."
-                }
-
-                +(Mod.customFov) configure {
-                    description = "Removes dynamic FOV shifting due to ingame effects."
-                }
-            }
-            // OPT-IN
-            group {
+                side = Side.BOTH
                 optional {
                     selected = false
                 }
+
             }.list {
 
-                +(Mod.betterFoliage) configure {
-                    description = "Improves the flora in the world. Very heavy, but very pretty. (Sane defaults set.)"
+                +(Mod.laggoggles) configure {
+                    description = "***Admin/diagnostic tool. Leave off unless asked to help test performance issues."
                 }
-
-                +(Mod.thaumicJei) configure {
-                    description = "JEI Integration for Thaumcraft."
+                +(Mod.sampler) configure {
+                    description = "***Admin/diagnostic tool. Leave off unless asked to help test performance issues."
                 }
-
-                +(Mod.justEnoughHarvestcraft) configure {
-                    description = "JEI Integration for Pam's HarvestCraft."
-                }
-
-                +(Mod.justEnoughResourcesJer) configure {
-                    description = "JEI Integration that gives drop-rates for mobs, dungeon loot, etc."
-                }
-
-                +(Mod.itemScroller) configure {
-                    description = "Alternative to MouseTweaks."
-                }
-
-                +(Mod.xaerosMinimap) configure {
-                    description = "Alternative to Journeymap."
-                }
-
-                +(Mod.minemenu) configure {
+                +(Mod.openeye) configure {
                     description =
-                            "Radial menu that can be used for command/keyboard shortcuts. Some keybinds cannot be added to radial menu."
+                            "Automatically collects and submits crash reports. Enable if asked or wish to help sort issues with the pack."
                 }
+            }
 
-                +(Mod.itemzoom) configure {
-                    description = "Enable this if you like to get a closer look at item textures."
-                }
+            group {
+                side = Side.CLIENT
+            }.list {
+                +(Mod.toastControl)
+                +(Mod.jeiIntegration)
+                +(Mod.appleskin)
+                +(Mod.betterfps)
+                +(Mod.nonausea)
+                +(Mod.betterPlacement)
+                +(Mod.controlling)
+                +(Mod.defaultOptions)
+                +(Mod.fullscreenWindowedBorderlessForMinecraft)
+                +(Mod.modNameTooltip)
+                +(Mod.reauth)
+                +(Mod.cleanview)
+                +(Mod.craftingTweaks)
+                +(Mod.betterAdvancements)
+                +(Mod.tinkersJei)
+                +(Mod.noRecipeBook)
+                +(Mod.ctm)
+                +(Mod.antighost)
 
-                +(Mod.lightLevelOverlayReloaded) configure {
-                    description = "Smol light-level overlay if you aren't using Dynamic Surroundings."
-                }
+                // OPT-OUT
+                group {
+                    optional {
+                        selected = true
+                        skRecommendation = Recommendation.starred
+                    }
+                }.list {
 
-                +(Mod.durabilityShow) configure {
-                    description = "Toggle-able item/tool/armor durability HUD. Duplicates with RPG-HUD."
-                }
-
-                +(Mod.fancyBlockParticles) configure {
-                    description =
-                            "Caution: Resource heavy. Adds some flair to particle effects and animations. Highly configurable, costs fps."
-                }
-
-                +(Mod.dynamicSurroundings) configure {
-                    description =
-                            "Caution: Resource heavy. Lots of configurable features that add immersive sound/visual effects. Includes light-level overlay."
-                }
-
-                +(Mod.rpgHud) configure {
-                    description =
-                            "Highly configurable HUD - heavier alt to Neat. (Configured for compatibility with other mods.)"
-                }
-
-                +(Mod.keyboardWizard) configure {
-                    description = "Visual keybind manager."
-                }
-
-                +(Mod.chunkAnimator) configure {
-                    description = "Configurable chunk pop-in animator."
-                }
-
-                +(Mod.fasterLadderClimbing) configure {
-                    description = "Helps you control ladder climb speed and allows you to go a bit faster."
-                }
-
-                // Resource packs
-                +TexturePack.unity configure {
-                    fileName = "Unity.zip"
-                    description = "Multi-mod compatible resource pack."
-                }
-
-                withProvider(DirectProvider).list {
-                    +"Optifine" configure {
-                        description =
-                                "Adds a variety of client and video options. Notorious for being problematic. Use with caution."
-                        url = "https://centerofthemultiverse.net/launcher/mirror/OptiFine_1.12.2_HD_U_E3.jar"
+                    +(Mod.journeymap) configure {
+                        description = "Mod-compatible mini-map."
                     }
 
-                    +"Slice" configure {
-                        description = "Custom client font based off of Chicago. Made by Falkreon."
-                        folder = "resourcepacks"
-                        url = "https://centerofthemultiverse.net/launcher/mirror/Slice.zip"
+                    +(Mod.mage) configure {
+                        description = "Configurable graphics enhancements. Highly recomended."
                     }
 
-                    +"SEUS Renewed" configure {
+                    +(Mod.neat) configure {
+                        description = "Simple health and unit frames."
+                    }
+
+                    +(Mod.clientTweaks) configure {
+                        description = "Various client related fixes and tweaks, all in a handy menu."
+                    }
+
+                    +(Mod.mouseTweaks) configure {
+                        description = "Add extra mouse gestures for inventories and crafting grids."
+                    }
+
+                    +(Mod.smoothFont) configure {
+                        description = "It smoothes fonts."
+                    }
+
+                    +(Mod.inventoryTweaks) configure {
+                        description = "Adds amll changes to invetory handling to minor conviniences."
+                    }
+
+                    +(Mod.customFov) configure {
+                        description = "Removes dynamic FOV shifting due to ingame effects."
+                    }
+                }
+
+                // OPT-IN
+                group {
+                    optional {
+                        selected = false
+                    }
+                }.list {
+
+                    +(Mod.betterFoliage) configure {
+                        description = "Improves the flora in the world. Very heavy, but very pretty. (Sane defaults set.)"
+                    }
+
+                    +(Mod.thaumicJei) configure {
+                        description = "JEI Integration for Thaumcraft."
+                    }
+
+                    +(Mod.justEnoughHarvestcraft) configure {
+                        description = "JEI Integration for Pam's HarvestCraft."
+                    }
+
+                    +(Mod.justEnoughResourcesJer) configure {
+                        description = "JEI Integration that gives drop-rates for mobs, dungeon loot, etc."
+                    }
+
+                    +(Mod.itemScroller) configure {
+                        description = "Alternative to MouseTweaks."
+                    }
+
+                    +(Mod.xaerosMinimap) configure {
+                        description = "Alternative to Journeymap."
+                    }
+
+                    +(Mod.minemenu) configure {
                         description =
-                                "Gorgeous shaderpack, incredibly demanding. Best for screenshots, not gameplay. (requires Optifine)"
-                        folder = "shaderpacks"
-                        url = "https://centerofthemultiverse.net/launcher/mirror/SEUS-Renewed-1.0.0.zip"
+                                "Radial menu that can be used for command/keyboard shortcuts. Some keybinds cannot be added to radial menu."
+                    }
+
+                    +(Mod.itemzoom) configure {
+                        description = "Enable this if you like to get a closer look at item textures."
+                    }
+
+                    +(Mod.lightLevelOverlayReloaded) configure {
+                        description = "Smol light-level overlay if you aren't using Dynamic Surroundings."
+                    }
+
+                    +(Mod.durabilityShow) configure {
+                        description = "Toggle-able item/tool/armor durability HUD. Duplicates with RPG-HUD."
+                    }
+
+                    +(Mod.fancyBlockParticles) configure {
+                        description =
+                                "Caution: Resource heavy. Adds some flair to particle effects and animations. Highly configurable, costs fps."
+                    }
+
+                    +(Mod.dynamicSurroundings) configure {
+                        description =
+                                "Caution: Resource heavy. Lots of configurable features that add immersive sound/visual effects. Includes light-level overlay."
+                    }
+
+                    +(Mod.rpgHud) configure {
+                        description =
+                                "Highly configurable HUD - heavier alt to Neat. (Configured for compatibility with other mods.)"
+                    }
+
+                    +(Mod.keyboardWizard) configure {
+                        description = "Visual keybind manager."
+                    }
+
+                    +(Mod.chunkAnimator) configure {
+                        description = "Configurable chunk pop-in animator."
+                    }
+
+                    +(Mod.fasterLadderClimbing) configure {
+                        description = "Helps you control ladder climb speed and allows you to go a bit faster."
+                    }
+
+                    // Resource packs
+                    +TexturePack.unity configure {
+                        fileName = "Unity.zip"
+                        description = "Multi-mod compatible resource pack."
+                    }
+
+                    withProvider(DirectProvider).list {
+                        +"Optifine" configure {
+                            description =
+                                    "Adds a variety of client and video options. Notorious for being problematic. Use with caution."
+                            url = "https://centerofthemultiverse.net/launcher/mirror/OptiFine_1.12.2_HD_U_E3.jar"
+                        }
+
+                        +"Slice" configure {
+                            description = "Custom client font based off of Chicago. Made by Falkreon."
+                            folder = "resourcepacks"
+                            url = "https://centerofthemultiverse.net/launcher/mirror/Slice.zip"
+                        }
+
+                        +"SEUS Renewed" configure {
+                            description =
+                                    "Gorgeous shaderpack, incredibly demanding. Best for screenshots, not gameplay. (requires Optifine)"
+                            folder = "shaderpacks"
+                            url = "https://centerofthemultiverse.net/launcher/mirror/SEUS-Renewed-1.0.0.zip"
+                        }
                     }
                 }
             }
-        }
+         }
     }
-}
-
