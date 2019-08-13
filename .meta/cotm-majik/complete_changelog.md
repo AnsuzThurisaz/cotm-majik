@@ -5017,6 +5017,14 @@ Version | `RebornCore-1.12.2-3.14.1.457-universal.jar` | `RebornCore-1.12.2-3.16
 
 
 
+updated `reliquary-v1-3`
+
+Property | old value | new value
+---|---|---
+Version | `Reliquary-1.12.2-1.3.4.786.jar` | `Reliquary-1.12.2-1.3.4.792.jar`
+
+
+
 updated `roots`
 
 Property | old value | new value
