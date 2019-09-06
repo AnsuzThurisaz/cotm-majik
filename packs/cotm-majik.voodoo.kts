@@ -9,8 +9,8 @@
 mcVersion = "1.12.2"
 title = "CotM-Majik"
 authors = listOf("AnsuzThuriaz")
-version = "0.3.5-testing"
-forge = Forge.mc1_12_2.forge_14_23_5_2838
+version = "0.3.5-testing2"
+forge = Forge.mc1_12_2.forge_14_23_5_2844
 icon = rootDir.resolve("icon.png")
 pack {
     skcraft {
@@ -226,8 +226,9 @@ root(CurseProvider) {
         +(Mod.timberjack)
         +(Mod.bedPatch)
         +(Mod.culinaryConstruct)
-        (+Mod.mobGrindingUtils)
-        (+Mod.soulus)
+        +(Mod.mobGrindingUtils)
+        +(Mod.soulus)
+        +(Mod.plustic)
 
         // Unstable Dependancies
         +(Mod.bookshelf)
@@ -244,47 +245,47 @@ root(CurseProvider) {
 
         // Pulled due to outstanding issues
 
-        withProvider(DirectProvider).list {
-            +"nutrition" configure {
-                url = "https://github.com/WesCook/Nutrition/releases/download/v4.4.0/Nutrition-1.12.2-4.4.0.jar"
-            }
-            +"friendship-bracelet" configure {
-                url = "https://centerofthemultiverse.net/launcher/mirror/FriendshipBracelet-master-1.1.2.36.jar"
-            }
-            +"infra-redstone" configure {
-                url = "https://centerofthemultiverse.net/launcher/mirror/InfraRedstone-1.12.2-1.2.1.114.jar"
-            }
-            +"thermionics" configure {
-                url = "https://centerofthemultiverse.net/launcher/mirror/Thermionics-MC1.12.2_ver1.1.4.jar"
-            }
-            +"thermionics-world" configure {
-                url = "https://centerofthemultiverse.net/launcher/mirror/ThermionicsWorld-MC1.12.2_ver1.0.2.jar"
-            }
-            +"magic-arsenal" configure {
-                url = "https://centerofthemultiverse.net/launcher/mirror/MagicArsenal-MC1.12_ver1.2.6.jar"
-            }
-            +"engination" configure {
-                url = "https://centerofthemultiverse.net/launcher/mirror/Engination-MC1.12.2_ver1.07.03.jar"
-            }
-            +"glass-hearts" configure {
-                url = "https://centerofthemultiverse.net/launcher/mirror/GlassHearts-1.12.1-1.0.73.jar"
-            }
-        }
-
-
-//        withProvider(JenkinsProvider) {
-//            jenkinsUrl = "https://ci.elytradev.com"
-//        }.list {
-//            // b0undrybreaker
-//            +"friendship-bracelet" job "elytra/FriendshipBracelet/master"
-//            +"infra-redstone" job "elytra/InfraRedstone/1.12.2"
-//
-//            // Falkreon
-//            +"magic-arsenal" job "elytra/MagicArsenal/master"
-//
-//            // unascribed
-//            +"glass-hearts" job "elytra/GlassHearts/1.12.1"
+//        withProvider(DirectProvider).list {
+//            +"nutrition" configure {
+//                url = "https://github.com/WesCook/Nutrition/releases/download/v4.4.0/Nutrition-1.12.2-4.4.0.jar"
+//            }
+//            +"friendship-bracelet" configure {
+//                url = "https://centerofthemultiverse.net/launcher/mirror/FriendshipBracelet-master-1.1.2.36.jar"
+//            }
+//            +"infra-redstone" configure {
+//                url = "https://centerofthemultiverse.net/launcher/mirror/InfraRedstone-1.12.2-1.2.1.114.jar"
+//            }
+//            +"thermionics" configure {
+//                url = "https://centerofthemultiverse.net/launcher/mirror/Thermionics-MC1.12.2_ver1.1.4.jar"
+//            }
+//            +"thermionics-world" configure {
+//                url = "https://centerofthemultiverse.net/launcher/mirror/ThermionicsWorld-MC1.12.2_ver1.0.2.jar"
+//            }
+//            +"magic-arsenal" configure {
+//                url = "https://centerofthemultiverse.net/launcher/mirror/MagicArsenal-MC1.12_ver1.2.6.jar"
+//            }
+//            +"engination" configure {
+//                url = "https://centerofthemultiverse.net/launcher/mirror/Engination-MC1.12.2_ver1.07.03.jar"
+//            }
+//            +"glass-hearts" configure {
+//                url = "https://centerofthemultiverse.net/launcher/mirror/GlassHearts-1.12.1-1.0.73.jar"
+//            }
 //        }
+
+
+        withProvider(JenkinsProvider) {
+            jenkinsUrl = "https://ci.elytradev.com"
+        }.list {
+            // b0undrybreaker
+            +"friendship-bracelet" job "elytra/FriendshipBracelet/master"
+            +"infra-redstone" job "elytra/InfraRedstone/1.12.2"
+
+            // Falkreon
+            +"magic-arsenal" job "elytra/MagicArsenal/master"
+
+            // unascribed
+            +"glass-hearts" job "elytra/GlassHearts/1.12.1"
+        }
 
         group {
             side = Side.SERVER
@@ -300,191 +301,169 @@ root(CurseProvider) {
             }
         }
 
+        group {
+            side = Side.BOTH
+            optional {
+                selected = false
+            }
+
+        }.list {
+
+            +(Mod.laggoggles) configure {
+                description = "***Admin/diagnostic tool. Leave off unless asked to help test performance issues."
+            }
+            +(Mod.sampler) configure {
+                description = "***Admin/diagnostic tool. Leave off unless asked to help test performance issues."
+            }
+            +(Mod.openeye) configure {
+                description =
+                        "Automatically collects and submits crash reports. Enable if asked or wish to help sort issues with the pack."
+            }
+        }
+
+        group {
+            side = Side.CLIENT
+        }.list {
+            +(Mod.toastControl)
+            +(Mod.jeiIntegration)
+            +(Mod.appleskin)
+            +(Mod.betterfps)
+            +(Mod.nonausea)
+            +(Mod.betterPlacement)
+            +(Mod.controlling)
+            +(Mod.defaultOptions)
+            +(Mod.fullscreenWindowedBorderlessForMinecraft)
+            +(Mod.modNameTooltip)
+            +(Mod.reauth)
+            +(Mod.cleanview)
+            +(Mod.craftingTweaks)
+            +(Mod.betterAdvancements)
+            +(Mod.tinkersJei)
+            +(Mod.noRecipeBook)
+            +(Mod.ctm)
+            +(Mod.antighost)
+
+            // OPT-OUT
             group {
-                side = Side.BOTH
+                optional {
+                    selected = true
+                    skRecommendation = Recommendation.starred
+                }
+            }.list {
+
+                +(Mod.journeymap) configure {
+                    description = "Mod-compatible mini-map."
+                }
+
+                +(Mod.mage) configure {
+                    description = "Configurable graphics enhancements. Highly recomended."
+                }
+
+                +(Mod.neat) configure {
+                    description = "Simple health and unit frames."
+                }
+
+                +(Mod.clientTweaks) configure {
+                    description = "Various client related fixes and tweaks, all in a handy menu."
+                }
+
+                +(Mod.mouseTweaks) configure {
+                    description = "Add extra mouse gestures for inventories and crafting grids."
+                }
+
+                +(Mod.smoothFont) configure {
+                    description = "It smoothes fonts."
+                }
+
+                +(Mod.inventoryTweaks) configure {
+                    description = "Adds amll changes to invetory handling to minor conviniences."
+                }
+
+                +(Mod.customFov) configure {
+                    description = "Removes dynamic FOV shifting due to ingame effects."
+                }
+            }
+
+            // OPT-IN
+            group {
                 optional {
                     selected = false
                 }
-
             }.list {
 
-                +(Mod.laggoggles) configure {
-                    description = "***Admin/diagnostic tool. Leave off unless asked to help test performance issues."
+                +(Mod.betterFoliage) configure {
+                    description = "Improves the flora in the world. Very heavy, but very pretty. (Sane defaults set.)"
                 }
-                +(Mod.sampler) configure {
-                    description = "***Admin/diagnostic tool. Leave off unless asked to help test performance issues."
+
+                +(Mod.thaumicJei) configure {
+                    description = "JEI Integration for Thaumcraft."
                 }
-                +(Mod.openeye) configure {
+
+                +(Mod.justEnoughHarvestcraft) configure {
+                    description = "JEI Integration for Pam's HarvestCraft."
+                }
+
+                +(Mod.justEnoughResourcesJer) configure {
+                    description = "JEI Integration that gives drop-rates for mobs, dungeon loot, etc."
+                }
+
+                +(Mod.itemScroller) configure {
+                    description = "Alternative to MouseTweaks."
+                }
+
+                +(Mod.xaerosMinimap) configure {
+                    description = "Alternative to Journeymap."
+                }
+
+                +(Mod.minemenu) configure {
                     description =
-                            "Automatically collects and submits crash reports. Enable if asked or wish to help sort issues with the pack."
-                }
-            }
-
-            group {
-                side = Side.CLIENT
-            }.list {
-                +(Mod.toastControl)
-                +(Mod.jeiIntegration)
-                +(Mod.appleskin)
-                +(Mod.betterfps)
-                +(Mod.nonausea)
-                +(Mod.betterPlacement)
-                +(Mod.controlling)
-                +(Mod.defaultOptions)
-                +(Mod.fullscreenWindowedBorderlessForMinecraft)
-                +(Mod.modNameTooltip)
-                +(Mod.reauth)
-                +(Mod.cleanview)
-                +(Mod.craftingTweaks)
-                +(Mod.betterAdvancements)
-                +(Mod.tinkersJei)
-                +(Mod.noRecipeBook)
-                +(Mod.ctm)
-                +(Mod.antighost)
-
-                // OPT-OUT
-                group {
-                    optional {
-                        selected = true
-                        skRecommendation = Recommendation.starred
-                    }
-                }.list {
-
-                    +(Mod.journeymap) configure {
-                        description = "Mod-compatible mini-map."
-                    }
-
-                    +(Mod.mage) configure {
-                        description = "Configurable graphics enhancements. Highly recomended."
-                    }
-
-                    +(Mod.neat) configure {
-                        description = "Simple health and unit frames."
-                    }
-
-                    +(Mod.clientTweaks) configure {
-                        description = "Various client related fixes and tweaks, all in a handy menu."
-                    }
-
-                    +(Mod.mouseTweaks) configure {
-                        description = "Add extra mouse gestures for inventories and crafting grids."
-                    }
-
-                    +(Mod.smoothFont) configure {
-                        description = "It smoothes fonts."
-                    }
-
-                    +(Mod.inventoryTweaks) configure {
-                        description = "Adds amll changes to invetory handling to minor conviniences."
-                    }
-
-                    +(Mod.customFov) configure {
-                        description = "Removes dynamic FOV shifting due to ingame effects."
-                    }
+                            "Radial menu that can be used for command/keyboard shortcuts. Some keybinds cannot be added to radial menu."
                 }
 
-                // OPT-IN
-                group {
-                    optional {
-                        selected = false
-                    }
-                }.list {
+                +(Mod.itemzoom) configure {
+                    description = "Enable this if you like to get a closer look at item textures."
+                }
 
-                    +(Mod.betterFoliage) configure {
-                        description = "Improves the flora in the world. Very heavy, but very pretty. (Sane defaults set.)"
-                    }
+                +(Mod.lightLevelOverlayReloaded) configure {
+                    description = "Smol light-level overlay if you aren't using Dynamic Surroundings."
+                }
 
-                    +(Mod.thaumicJei) configure {
-                        description = "JEI Integration for Thaumcraft."
-                    }
+                +(Mod.durabilityShow) configure {
+                    description = "Toggle-able item/tool/armor durability HUD. Duplicates with RPG-HUD."
+                }
 
-                    +(Mod.justEnoughHarvestcraft) configure {
-                        description = "JEI Integration for Pam's HarvestCraft."
-                    }
+                +(Mod.fancyBlockParticles) configure {
+                    description =
+                            "Caution: Resource heavy. Adds some flair to particle effects and animations. Highly configurable, costs fps."
+                }
 
-                    +(Mod.justEnoughResourcesJer) configure {
-                        description = "JEI Integration that gives drop-rates for mobs, dungeon loot, etc."
-                    }
+                +(Mod.dynamicSurroundings) configure {
+                    description =
+                            "Caution: Resource heavy. Lots of configurable features that add immersive sound/visual effects. Includes light-level overlay."
+                }
 
-                    +(Mod.itemScroller) configure {
-                        description = "Alternative to MouseTweaks."
-                    }
+                +(Mod.chunkAnimator) configure {
+                    description = "Configurable chunk pop-in animator."
+                }
 
-                    +(Mod.xaerosMinimap) configure {
-                        description = "Alternative to Journeymap."
-                    }
+                +(Mod.fasterLadderClimbing) configure {
+                    description = "Helps you control ladder climb speed and allows you to go a bit faster."
+                }
 
-                    +(Mod.minemenu) configure {
-                        description =
-                                "Radial menu that can be used for command/keyboard shortcuts. Some keybinds cannot be added to radial menu."
-                    }
+                // Resource packs
+                +TexturePack.unity configure {
+                    fileName = "Unity.zip"
+                    description = "Multi-mod compatible resource pack."
+                }
 
-                    +(Mod.itemzoom) configure {
-                        description = "Enable this if you like to get a closer look at item textures."
-                    }
-
-                    +(Mod.lightLevelOverlayReloaded) configure {
-                        description = "Smol light-level overlay if you aren't using Dynamic Surroundings."
-                    }
-
-                    +(Mod.durabilityShow) configure {
-                        description = "Toggle-able item/tool/armor durability HUD. Duplicates with RPG-HUD."
-                    }
-
-                    +(Mod.fancyBlockParticles) configure {
-                        description =
-                                "Caution: Resource heavy. Adds some flair to particle effects and animations. Highly configurable, costs fps."
-                    }
-
-                    +(Mod.dynamicSurroundings) configure {
-                        description =
-                                "Caution: Resource heavy. Lots of configurable features that add immersive sound/visual effects. Includes light-level overlay."
-                    }
-
-                    +(Mod.rpgHud) configure {
-                        description =
-                                "Highly configurable HUD - heavier alt to Neat. (Configured for compatibility with other mods.)"
-                    }
-
-                    +(Mod.keyboardWizard) configure {
-                        description = "Visual keybind manager."
-                    }
-
-                    +(Mod.chunkAnimator) configure {
-                        description = "Configurable chunk pop-in animator."
-                    }
-
-                    +(Mod.fasterLadderClimbing) configure {
-                        description = "Helps you control ladder climb speed and allows you to go a bit faster."
-                    }
-
-                    // Resource packs
-                    +TexturePack.unity configure {
-                        fileName = "Unity.zip"
-                        description = "Multi-mod compatible resource pack."
-                    }
-
-                    withProvider(DirectProvider).list {
-                        +"Optifine" configure {
-                            description =
-                                    "Adds a variety of client and video options. Notorious for being problematic. Use with caution."
-                            url = "https://centerofthemultiverse.net/launcher/mirror/OptiFine_1.12.2_HD_U_E3.jar"
-                        }
-
-                        +"Slice" configure {
-                            description = "Custom client font based off of Chicago. Made by Falkreon."
-                            folder = "resourcepacks"
-                            url = "https://centerofthemultiverse.net/launcher/mirror/Slice.zip"
-                        }
-
-                        +"SEUS Renewed" configure {
-                            description =
-                                    "Gorgeous shaderpack, incredibly demanding. Best for screenshots, not gameplay. (requires Optifine)"
-                            folder = "shaderpacks"
-                            url = "https://centerofthemultiverse.net/launcher/mirror/SEUS-Renewed-1.0.0.zip"
-                        }
+                withProvider(DirectProvider).list {
+                    +"Slice" configure {
+                        description = "Custom client font based off of Chicago. Made by Falkreon."
+                        folder = "resourcepacks"
+                        url = "https://centerofthemultiverse.net/launcher/mirror/Slice.zip"
                     }
                 }
             }
-         }
+        }
     }
+}

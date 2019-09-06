@@ -2,11 +2,11 @@
     id: cotm-majik,
     mcVersion: 1.12.2,
     title: CotM-Majik,
-    version: 0.3.5-testing,
+    version: 0.3.5-testing2,
     authors: [
         AnsuzThuriaz
     ],
-    forge: 1.12.2-14.23.5.2838,
+    forge: 1.12.2-14.23.5.2844,
     packOptions: {
         multimcOptions: {
             skPackUrl: "https://centerofthemultiverse.net/launcher/cotm-majik.json"

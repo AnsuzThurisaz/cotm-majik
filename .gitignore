@@ -19,7 +19,6 @@ _upload/
 .history/
 workspace/
 server_cotm/
-server_cotm-majik/
 bootstrap-voodoo.jar
 modpack-creator.jar
-/reports
+reports/
