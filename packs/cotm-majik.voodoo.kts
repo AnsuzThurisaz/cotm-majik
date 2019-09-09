@@ -9,7 +9,7 @@
 mcVersion = "1.12.2"
 title = "CotM-Majik"
 authors = listOf("AnsuzThuriaz")
-version = "0.3.5-testing2"
+version = "0.3.5-testing3"
 forge = Forge.mc1_12_2.forge_14_23_5_2844
 icon = rootDir.resolve("icon.png")
 pack {
@@ -87,9 +87,6 @@ root(CurseProvider) {
 
         // Mr_Crayfish
         +(Mod.mrcrayfishFurnitureMod)
-
-        // zabi94
-        +(Mod.extraAlchemy)
 
         // Subaraki
         +(Mod.paintings)
@@ -278,7 +275,6 @@ root(CurseProvider) {
         }.list {
             // b0undrybreaker
             +"friendship-bracelet" job "elytra/FriendshipBracelet/master"
-            +"infra-redstone" job "elytra/InfraRedstone/1.12.2"
 
             // Falkreon
             +"magic-arsenal" job "elytra/MagicArsenal/master"

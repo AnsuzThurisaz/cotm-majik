@@ -29,11 +29,11 @@ added `plustic`
 Property | old value | new value
 ---|---|---
 ID |  | `plustic`
-Version |  | `plustic-7.1.4.0.jar`
+Version |  | `plustic-7.1.5.0.jar`
 Provider |  | `CURSE`
 Side |  | `BOTH`
 Optional |  | `false`
-Required Dependencies |  | `tinkers-construct`, `mantle`
+Required Dependencies |  | `mantle`, `tinkers-construct`
 Release Type |  | `Release`
 Author |  | `landmaster_phuong0429`
 
@@ -46,6 +46,7 @@ updated `angry-pixel-the-betweenlands-mod`
 Property | old value | new value
 ---|---|---
 Version | `TheBetweenlands-3.4.10-universal.jar` | `TheBetweenlands-3.4.11-universal.jar`
+Author | `BobMowzie, Gory_Moon, imdutch21, oily_oli, pau101, TheCyberBrick, TripleHeadedSheep, vadis365, wightofshadows` | `BobMowzie, GoryMoon, imdutch21, oily_oli, pau101, TheCyberBrick, TripleHeadedSheep, vadis365, wightofshadows`
 
 
 
@@ -61,7 +62,7 @@ updated `arcane-archives`
 
 Property | old value | new value
 ---|---|---
-Version | `arcanearchives-0.2.0.3.jar` | `arcanearchives-0.2.0.8.jar`
+Version | `arcanearchives-0.2.0.3.jar` | `arcanearchives-0.2.0.9.jar`
 
 
 
@@ -69,9 +70,8 @@ updated `armory-expansion`
 
 Property | old value | new value
 ---|---|---
-Version | `armoryexpansion-1.3.3.jar` | `armoryexpansion-1.3.4.jar`
-Required Dependencies | `tinkers-construct`, `constructs-armory`, `mantle` | `tinkers-construct`, `mantle`, `constructs-armory`
-Release Type | `Release` | `Beta`
+Version | `armoryexpansion-1.3.3.jar` | `armoryexpansion-1.3.4b.jar`
+Required Dependencies | `tinkers-construct`, `constructs-armory`, `mantle` | `mantle`, `tinkers-construct`, `constructs-armory`
 
 
 
@@ -113,6 +113,14 @@ updated `charm`
 Property | old value | new value
 ---|---|---
 Version | `Charm-1.12.2-1.3.2.jar` | `Charm-1.12.2-1.3.6.jar`
+
+
+
+updated `codechicken-lib-1-8`
+
+Property | old value | new value
+---|---|---
+Version | `CodeChickenLib-1.12.2-3.2.3.357-universal.jar` | `CodeChickenLib-1.12.2-3.2.3.358-universal.jar`
 
 
 
@@ -185,7 +193,7 @@ updated `electroblobs-wizardry`
 
 Property | old value | new value
 ---|---|---
-Version | `Electroblob's Wizardry - 4.1.4 - MC 1.12.2.jar` | `ElectroblobsWizardry-4.2.2-MC1.12.2.jar`
+Version | `Electroblob's Wizardry - 4.1.4 - MC 1.12.2.jar` | `ElectroblobsWizardry-4.2.3-MC1.12.2.jar`
 
 
 
@@ -250,7 +258,7 @@ updated `ftblib`
 
 Property | old value | new value
 ---|---|---
-Version | `FTBLib-5.4.3.130.jar` | `FTBLib-5.4.3.134.jar`
+Version | `FTBLib-5.4.3.130.jar` | `FTBLib-5.4.3.135.jar`
 
 
 
@@ -283,7 +291,8 @@ updated `mystic-world`
 
 Property | old value | new value
 ---|---|---
-Version | `MysticWorld-1.12.2-1.4.1.jar` | `MysticWorld-1.12.2-1.4.3.jar`
+Version | `MysticWorld-1.12.2-1.4.1.jar` | `MysticWorld-1.12.2-1.4.4.jar`
+Required Dependencies | `mysticallib` | `patchouli`, `mysticallib`
 
 
 
@@ -291,7 +300,7 @@ updated `mysticallib`
 
 Property | old value | new value
 ---|---|---
-Version | `mysticallib-1.12.2-1.3.2.jar` | `mysticallib-1.12.2-1.3.6.jar`
+Version | `mysticallib-1.12.2-1.3.2.jar` | `mysticallib-1.12.2-1.3.7.jar`
 
 
 
@@ -348,8 +357,8 @@ updated `roots`
 
 Property | old value | new value
 ---|---|---
-Version | `Roots-1.12.2-3.0.6.jar` | `Roots-1.12.2-3.0.12.jar`
-Required Dependencies | `mystic-world`, `mysticallib`, `patchouli` | `mysticallib`, `mystic-world`, `patchouli`
+Version | `Roots-1.12.2-3.0.6.jar` | `Roots-1.12.2-3.0.13.jar`
+Required Dependencies | `mystic-world`, `mysticallib`, `patchouli` | `mysticallib`, `patchouli`, `mystic-world`
 
 
 

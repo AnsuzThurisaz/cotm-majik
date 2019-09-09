@@ -2591,36 +2591,6 @@
             value: `14`
         }
     },
-    infra-redstone: {
-        id: {
-            name: ID,
-            value: `infra-redstone`
-        },
-        version: {
-            name: Version,
-            value: `InfraRedstone-1.12.2-1.2.1.114.jar`
-        },
-        provider: {
-            name: Provider,
-            value: `JENKINS`
-        },
-        side: {
-            name: Side,
-            value: `BOTH`
-        },
-        optional: {
-            name: Optional,
-            value: `false`
-        },
-        jenkins_job: {
-            name: Job,
-            value: `elytra/InfraRedstone/1.12.2`
-        },
-        jenkins_build: {
-            name: Build,
-            value: `21`
-        }
-    },
     magic-arsenal: {
         id: {
             name: ID,
@@ -2811,40 +2781,6 @@
         curse_author: {
             name: Author,
             value: `kroeser`
-        }
-    },
-    extra-alchemy: {
-        id: {
-            name: ID,
-            value: `extra-alchemy`
-        },
-        version: {
-            name: Version,
-            value: `extraalchemy-0.4.2.jar`
-        },
-        provider: {
-            name: Provider,
-            value: `CURSE`
-        },
-        side: {
-            name: Side,
-            value: `BOTH`
-        },
-        optional: {
-            name: Optional,
-            value: `false`
-        },
-        dependencies_required: {
-            name: "Required Dependencies",
-            value: `minerva-library`
-        },
-        curse_release_type: {
-            name: "Release Type",
-            value: `Release`
-        },
-        curse_author: {
-            name: Author,
-            value: `zabi94`
         }
     },
     extra-bit-manipulation: {
@@ -4317,36 +4253,6 @@
         curse_author: {
             name: Author,
             value: `Girafi`
-        }
-    },
-    minerva-library: {
-        id: {
-            name: ID,
-            value: `minerva-library`
-        },
-        version: {
-            name: Version,
-            value: `minerva-library-1.0.13.jar`
-        },
-        provider: {
-            name: Provider,
-            value: `CURSE`
-        },
-        side: {
-            name: Side,
-            value: `BOTH`
-        },
-        optional: {
-            name: Optional,
-            value: `false`
-        },
-        curse_release_type: {
-            name: "Release Type",
-            value: `Release`
-        },
-        curse_author: {
-            name: Author,
-            value: `zabi94`
         }
     },
     mmd-orespawn: {
