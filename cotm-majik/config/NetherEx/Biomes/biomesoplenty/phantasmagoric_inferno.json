@@ -1,185 +1,144 @@
 {
-  "biome": "biomesoplenty:phantasmagoric_inferno",
-  "weight": 6,
-  "enabled": true,
-  "genDefaultFeatures": true,
-  "entities": [
-    {
-      "entity": "minecraft:ghast",
-      "creatureType": "monster",
-      "weight": 50,
-      "minGroupCount": 4,
-      "maxGroupCount": 4,
-      "spawn": true
-    },
-    {
-      "entity": "minecraft:zombie_pigman",
-      "creatureType": "monster",
-      "weight": 100,
-      "minGroupCount": 4,
-      "maxGroupCount": 4,
-      "spawn": true
-    },
-    {
-      "entity": "minecraft:magma_cube",
-      "creatureType": "monster",
-      "weight": 2,
-      "minGroupCount": 4,
-      "maxGroupCount": 4,
-      "spawn": true
-    },
-    {
-      "entity": "minecraft:enderman",
-      "creatureType": "monster",
-      "weight": 1,
-      "minGroupCount": 4,
-      "maxGroupCount": 4,
-      "spawn": true
-    },
-    {
-      "entity": "ebwizardry:evil_wizard",
-      "creatureType": "monster",
-      "weight": 3,
-      "minGroupCount": 1,
-      "maxGroupCount": 1,
-      "spawn": true
-    },
-    {
-      "entity": "abyssalcraft:demonpig",
-      "creatureType": "monster",
-      "weight": 15,
-      "minGroupCount": 1,
-      "maxGroupCount": 3,
-      "spawn": true
-    },
-    {
-      "entity": "abyssalcraft:demoncow",
-      "creatureType": "monster",
-      "weight": 15,
-      "minGroupCount": 1,
-      "maxGroupCount": 3,
-      "spawn": true
-    },
-    {
-      "entity": "abyssalcraft:demonchicken",
-      "creatureType": "monster",
-      "weight": 15,
-      "minGroupCount": 1,
-      "maxGroupCount": 3,
-      "spawn": true
-    },
-    {
-      "entity": "abyssalcraft:demonsheep",
-      "creatureType": "monster",
-      "weight": 15,
-      "minGroupCount": 1,
-      "maxGroupCount": 3,
-      "spawn": true
-    },
-    {
-      "entity": "minecraft:blaze",
-      "creatureType": "monster",
-      "weight": 5,
-      "minGroupCount": 1,
-      "maxGroupCount": 2,
-      "spawn": true
-    },
-    {
-      "entity": "quark:wraith",
-      "creatureType": "monster",
-      "weight": 60,
-      "minGroupCount": 4,
-      "maxGroupCount": 6,
-      "spawn": true
-    },
-    {
-      "entity": "thaumcraft:pech",
-      "creatureType": "monster",
-      "weight": 10,
-      "minGroupCount": 1,
-      "maxGroupCount": 1,
-      "spawn": true
-    },
-    {
-      "entity": "thaumcraft:firebat",
-      "creatureType": "monster",
-      "weight": 10,
-      "minGroupCount": 1,
-      "maxGroupCount": 2,
-      "spawn": true
-    },
-    {
-      "entity": "thaumcraft:wisp",
-      "creatureType": "monster",
-      "weight": 5,
-      "minGroupCount": 1,
-      "maxGroupCount": 1,
-      "spawn": true
-    },
-    {
-      "entity": "natura:nitrocreeper",
-      "creatureType": "monster",
-      "weight": 8,
-      "minGroupCount": 4,
-      "maxGroupCount": 6,
-      "spawn": true
-    },
-    {
-      "entity": "grimoireofgaia:vase_nether",
-      "creatureType": "monster",
-      "weight": 12,
-      "minGroupCount": 1,
-      "maxGroupCount": 1,
-      "spawn": true
-    },
-    {
-      "entity": "grimoireofgaia:succubus",
-      "creatureType": "monster",
-      "weight": 16,
-      "minGroupCount": 2,
-      "maxGroupCount": 4,
-      "spawn": true
-    },
-    {
-      "entity": "grimoireofgaia:wither_cow",
-      "creatureType": "monster",
-      "weight": 12,
-      "minGroupCount": 2,
-      "maxGroupCount": 4,
-      "spawn": true
-    },
-    {
-      "entity": "grimoireofgaia:baphomet",
-      "creatureType": "monster",
-      "weight": 12,
-      "minGroupCount": 2,
-      "maxGroupCount": 4,
-      "spawn": true
-    },
-    {
-      "entity": "animania:cow_jersey",
-      "creatureType": "creature",
-      "weight": 8,
-      "minGroupCount": 1,
-      "maxGroupCount": 1,
-      "spawn": true
-    },
-    {
-      "entity": "animania:cow_mooshroom",
-      "creatureType": "creature",
-      "weight": 8,
-      "minGroupCount": 1,
-      "maxGroupCount": 1,
-      "spawn": true
-    },
-    {
-      "entity": "natura:imp",
-      "creatureType": "creature",
-      "weight": 10,
-      "minGroupCount": 8,
-      "maxGroupCount": 12,
-      "spawn": true
-    }
-  ],
-  "features": []
+	"biome": "biomesoplenty:phantasmagoric_inferno",
+	"generationWeight": 6,
+	"useDefaultDecorations": true,
+	"isSubBiome": false,
+	"isEnabled": true,
+	"blocks": {},
+	"entities": [
+		{
+			"entity": "minecraft:ghast",
+			"spawnWeight": 50,
+			"minimumGroupCount": 4,
+			"maximumGroupCount": 4
+		}, 
+		{
+			"entity": "minecraft:zombie_pigman",
+			"spawnWeight": 100,
+			"minimumGroupCount": 4,
+			"maximumGroupCount": 4
+		}, 
+		{
+			"entity": "minecraft:magma_cube",
+			"spawnWeight": 2,
+			"minimumGroupCount": 4,
+			"maximumGroupCount": 4
+		}, 
+		{
+			"entity": "minecraft:enderman",
+			"spawnWeight": 1,
+			"minimumGroupCount": 4,
+			"maximumGroupCount": 4
+		}, 
+		{
+			"entity": "bewitchment:black_dog",
+			"spawnWeight": 6,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 4
+		}, 
+		{
+			"entity": "bewitchment:hellhound",
+			"spawnWeight": 6,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 4
+		}, 
+		{
+			"entity": "bewitchment:serpent",
+			"spawnWeight": 6,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 4
+		}, 
+		{
+			"entity": "ebwizardry:lightning_wraith",
+			"spawnWeight": 1,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 1
+		}, 
+		{
+			"entity": "ebwizardry:evil_wizard",
+			"spawnWeight": 3,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 1
+		}, 
+		{
+			"entity": "abyssalcraft:demonpig",
+			"spawnWeight": 15,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 3
+		}, 
+		{
+			"entity": "abyssalcraft:demoncow",
+			"spawnWeight": 15,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 3
+		}, 
+		{
+			"entity": "abyssalcraft:demonchicken",
+			"spawnWeight": 15,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 3
+		}, 
+		{
+			"entity": "abyssalcraft:demonsheep",
+			"spawnWeight": 15,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 3
+		}, 
+		{
+			"entity": "minecraft:blaze",
+			"spawnWeight": 5,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 2
+		}, 
+		{
+			"entity": "quark:foxhound",
+			"spawnWeight": 10,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 2
+		}, 
+		{
+			"entity": "quark:wraith",
+			"spawnWeight": 60,
+			"minimumGroupCount": 4,
+			"maximumGroupCount": 6
+		}, 
+		{
+			"entity": "mysticalworld:entity_lava_cat",
+			"spawnWeight": 2,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 1
+		}, 
+		{
+			"entity": "animania:cow_jersey",
+			"spawnWeight": 8,
+			"minimumGroupCount": 2,
+			"maximumGroupCount": 2
+		}, 
+		{
+			"entity": "animania:cow_mooshroom",
+			"spawnWeight": 8,
+			"minimumGroupCount": 2,
+			"maximumGroupCount": 2
+		}, 
+		{
+			"entity": "mysticalworld:entity_sprout",
+			"spawnWeight": 2,
+			"minimumGroupCount": 2,
+			"maximumGroupCount": 4
+		}, 
+		{
+			"entity": "mysticalworld:entity_owl",
+			"spawnWeight": 9,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 3
+		}, 
+		{
+			"entity": "bewitchment:raven",
+			"spawnWeight": 20,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 4
+		}
+	],
+	"traits": [],
+	"subBiomes": []
 }

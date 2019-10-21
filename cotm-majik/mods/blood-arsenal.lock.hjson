@@ -2,10 +2,10 @@
     provider: CURSE,
     dependencies: {
         REQUIRED: [
-            blood-magic,
-            baubles
+            baubles,
+            blood-magic
         ]
     },
     projectID: 228823,
-    fileID: 2701933
+    fileID: 2799605
 }

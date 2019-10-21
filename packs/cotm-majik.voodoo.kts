@@ -9,8 +9,8 @@
 mcVersion = "1.12.2"
 title = "CotM-Majik"
 authors = listOf("AnsuzThuriaz")
-version = "0.3.5-testing4"
-forge = Forge.mc1_12_2.forge_14_23_5_2844
+version = "0.3.6-testing6"
+forge = Forge.mc1_12_2.forge_14_23_5_2847
 icon = rootDir.resolve("icon.png")
 pack {
     skcraft {
@@ -226,6 +226,11 @@ root(CurseProvider) {
         +(Mod.mobGrindingUtils)
         +(Mod.soulus)
         +(Mod.plustic)
+        +(Mod.lycanitesMobs)
+        +(Mod.betterportals)
+        +(Mod.iceAndFireDragons)
+        +(Mod.maxPotionIdExtender)
+        +(Mod.voidcraft)
 
         // Unstable Dependancies
         +(Mod.bookshelf)
@@ -241,34 +246,6 @@ root(CurseProvider) {
         // +(Mod.customMainMenu)
 
         // Pulled due to outstanding issues
-
-//        withProvider(DirectProvider).list {
-//            +"nutrition" configure {
-//                url = "https://github.com/WesCook/Nutrition/releases/download/v4.4.0/Nutrition-1.12.2-4.4.0.jar"
-//            }
-//            +"friendship-bracelet" configure {
-//                url = "https://centerofthemultiverse.net/launcher/mirror/FriendshipBracelet-master-1.1.2.36.jar"
-//            }
-//            +"infra-redstone" configure {
-//                url = "https://centerofthemultiverse.net/launcher/mirror/InfraRedstone-1.12.2-1.2.1.114.jar"
-//            }
-//            +"thermionics" configure {
-//                url = "https://centerofthemultiverse.net/launcher/mirror/Thermionics-MC1.12.2_ver1.1.4.jar"
-//            }
-//            +"thermionics-world" configure {
-//                url = "https://centerofthemultiverse.net/launcher/mirror/ThermionicsWorld-MC1.12.2_ver1.0.2.jar"
-//            }
-//            +"magic-arsenal" configure {
-//                url = "https://centerofthemultiverse.net/launcher/mirror/MagicArsenal-MC1.12_ver1.2.6.jar"
-//            }
-//            +"engination" configure {
-//                url = "https://centerofthemultiverse.net/launcher/mirror/Engination-MC1.12.2_ver1.07.03.jar"
-//            }
-//            +"glass-hearts" configure {
-//                url = "https://centerofthemultiverse.net/launcher/mirror/GlassHearts-1.12.1-1.0.73.jar"
-//            }
-//        }
-
 
         withProvider(JenkinsProvider) {
             jenkinsUrl = "https://ci.elytradev.com"
