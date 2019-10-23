@@ -9,7 +9,7 @@
 mcVersion = "1.12.2"
 title = "CotM-Majik"
 authors = listOf("AnsuzThuriaz")
-version = "0.3.6-testing6"
+version = "0.3.7-testing"
 forge = Forge.mc1_12_2.forge_14_23_5_2847
 icon = rootDir.resolve("icon.png")
 pack {
@@ -226,11 +226,24 @@ root(CurseProvider) {
         +(Mod.mobGrindingUtils)
         +(Mod.soulus)
         +(Mod.plustic)
-        +(Mod.lycanitesMobs)
         +(Mod.betterportals)
-        +(Mod.iceAndFireDragons)
         +(Mod.maxPotionIdExtender)
         +(Mod.voidcraft)
+        +(Mod.cyclic)
+        +(Mod.spiceOfLifeCarrotEdition)
+        +(Mod.dm2)
+        +(Mod.externalTweaker)
+        +(Mod.projectIntelligence)
+        +(Mod.customMainMenu)
+        +(Mod.shadowfactsForgelin)
+        +(Mod.hardcoreQuestingMode)
+        +(Mod.bedPatch)
+        +(Mod.minetweakerRecipemaker)
+        +(Mod.crafttweaker)
+        +(Mod.modtweaker)
+        +(Mod.tweakersConstruct)
+        +(Mod.dragonDropsElytra)
+        +(Mod.clockworkPhase)
 
         // Unstable Dependancies
         +(Mod.bookshelf)
