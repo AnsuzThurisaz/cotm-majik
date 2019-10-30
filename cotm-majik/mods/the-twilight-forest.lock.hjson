@@ -2,10 +2,10 @@
     provider: CURSE,
     dependencies: {
         REQUIRED: [
-            ctm,
-            patchouli
+            patchouli,
+            ctm
         ]
     },
     projectID: 227639,
-    fileID: 2756932
+    fileID: 2818055
 }

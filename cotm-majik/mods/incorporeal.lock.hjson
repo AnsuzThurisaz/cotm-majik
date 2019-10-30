@@ -2,9 +2,9 @@
     provider: CURSE,
     dependencies: {
         REQUIRED: [
-            crafttweaker
+            botania
         ]
     },
-    projectID: 270558,
-    fileID: 2452858
+    projectID: 300842,
+    fileID: 2800257
 }

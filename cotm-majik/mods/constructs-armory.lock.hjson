@@ -2,10 +2,10 @@
     provider: CURSE,
     dependencies: {
         REQUIRED: [
-            mantle,
-            tinkers-construct
+            tinkers-construct,
+            mantle
         ]
     },
     projectID: 287683,
-    fileID: 2809585
+    fileID: 2817783
 }

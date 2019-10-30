@@ -9,7 +9,7 @@
 mcVersion = "1.12.2"
 title = "CotM-Majik"
 authors = listOf("AnsuzThuriaz")
-version = "0.3.7-testing"
+version = "0.3.8-testing"
 forge = Forge.mc1_12_2.forge_14_23_5_2847
 icon = rootDir.resolve("icon.png")
 pack {
@@ -84,9 +84,6 @@ root(CurseProvider) {
 
         // Viesis
         +(Mod.viescraftAirships)
-
-        // Mr_Crayfish
-        +(Mod.mrcrayfishFurnitureMod)
 
         // Subaraki
         +(Mod.paintings)
@@ -232,7 +229,7 @@ root(CurseProvider) {
         +(Mod.cyclic)
         +(Mod.spiceOfLifeCarrotEdition)
         +(Mod.dm2)
-        +(Mod.externalTweaker)
+//        +(Mod.externalTweaker)
         +(Mod.projectIntelligence)
         +(Mod.customMainMenu)
         +(Mod.shadowfactsForgelin)
@@ -244,6 +241,10 @@ root(CurseProvider) {
         +(Mod.tweakersConstruct)
         +(Mod.dragonDropsElytra)
         +(Mod.clockworkPhase)
+        (+Mod.bonsaiTrees)
+        (+Mod.incorporeal)
+        (+Mod.mrcrayfishFurnitureMod)
+        (+Mod.chestTransporter)
 
         // Unstable Dependancies
         +(Mod.bookshelf)
@@ -253,9 +254,6 @@ root(CurseProvider) {
         // Pre-Testing / Un-used
         // +(Mod.inControl)
         // +(Mod.justEnoughDimensions)
-        // +(Mod.crafttweaker)
-        // +(Mod.modtweaker)
-        // +(Mod.tweakersConstruct)
         // +(Mod.customMainMenu)
 
         // Pulled due to outstanding issues
