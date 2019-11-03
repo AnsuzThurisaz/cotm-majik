@@ -3,7 +3,7 @@
 	"soul_catalyst_fuel_time": 11000,
 	"efficiency_upgrades_range": {
 		"min": 1.0,
-		"max": 0.0
+		"max": 0.3
 	},
 	"is_chunkloader": true,
 	"can_disable_with_redstone": true,

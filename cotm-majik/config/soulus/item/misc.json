@@ -1,7 +1,7 @@
 {
 	"bone_chunks": {
 		"particle_count": 3,
-		"sneak_to_marrow_full_stack": true
+		"sneak_to_marrow_full_stack": false
 	},
 	"glue": {
 		"always_edible": true,
