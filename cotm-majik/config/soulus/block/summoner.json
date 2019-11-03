@@ -27,7 +27,7 @@
 	"soulbook_uses": 256,
 	"efficiency_upgrade_range": {
 		"min": 1.0,
-		"max": 0.3
+		"max": 0.0
 	},
 	"midnight_jewel_range": 16,
 	"midnight_jewel_count": {
