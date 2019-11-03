@@ -1,4 +1,4 @@
 {
-	"required_essence": 128,
+	"required_essence": 32,
 	"stack_size": 16
 }
