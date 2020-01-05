@@ -1,11 +1,10 @@
 {
     provider: CURSE,
-    side: CLIENT,
     dependencies: {
         REQUIRED: [
-            hwyla
+            tammodized
         ]
     },
-    projectID: 79287,
-    fileID: 2481605
+    projectID: 251730,
+    fileID: 2536024
 }

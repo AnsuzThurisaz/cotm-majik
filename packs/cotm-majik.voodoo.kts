@@ -189,6 +189,7 @@ root(CurseProvider) {
         +(Mod.rustic)
         +(Mod.angryPixelTheBetweenlandsMod)
         +(Mod.biomesOPlenty)
+        +(Mod.theMidnight)
         +(Mod.magicalPsi)
         +(Mod.theBeneath)
         +(Mod.bloodArsenal)
@@ -220,11 +221,15 @@ root(CurseProvider) {
         +(Mod.bedPatch)
         +(Mod.culinaryConstruct)
         +(Mod.mobGrindingUtils)
+        +(Mod.soulus)
         +(Mod.plustic)
+        +(Mod.betterportals)
         +(Mod.maxPotionIdExtender)
+        +(Mod.voidcraft)
         +(Mod.cyclic)
         +(Mod.spiceOfLifeCarrotEdition)
         +(Mod.dm2)
+//        +(Mod.externalTweaker)
         +(Mod.projectIntelligence)
         +(Mod.customMainMenu)
         +(Mod.shadowfactsForgelin)
@@ -236,18 +241,10 @@ root(CurseProvider) {
         +(Mod.tweakersConstruct)
         +(Mod.dragonDropsElytra)
         +(Mod.clockworkPhase)
-        +(Mod.bonsaiTrees)
-        +(Mod.incorporeal)
-        +(Mod.mrcrayfishFurnitureMod)
-        +(Mod.chestTransporter)
-        +(Mod.mysticalGears)
-        +(Mod.mysticalmechanics)
-
-        withProvider(DirectProvider).list {
-            +"Nutrition" configure {
-                url = "https://github.com/WesCook/Nutrition/releases/download/v4.4.0/Nutrition-1.12.2-4.4.0.jar"
-            }
-        }
+        (+Mod.bonsaiTrees)
+        (+Mod.incorporeal)
+        (+Mod.mrcrayfishFurnitureMod)
+        (+Mod.chestTransporter)
 
         // Unstable Dependancies
         +(Mod.bookshelf)
@@ -329,8 +326,6 @@ root(CurseProvider) {
             +(Mod.noRecipeBook)
             +(Mod.ctm)
             +(Mod.antighost)
-            +(Mod.wailaHarvestability)
-            +(Mod.soot)
 
             // OPT-OUT
             group {
