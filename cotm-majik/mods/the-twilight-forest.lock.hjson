@@ -2,8 +2,8 @@
     provider: CURSE,
     dependencies: {
         REQUIRED: [
-            patchouli,
-            ctm
+            ctm,
+            patchouli
         ]
     },
     projectID: 227639,

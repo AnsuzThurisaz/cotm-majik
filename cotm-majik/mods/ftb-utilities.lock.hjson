@@ -2,10 +2,10 @@
     provider: CURSE,
     dependencies: {
         REQUIRED: [
-            ftb-utilities-backups,
-            ftblib
+            ftblib,
+            ftb-backups
         ]
     },
     projectID: 237102,
-    fileID: 2817931
+    fileID: 2835289
 }
